@@ -1,0 +1,93 @@
+.navbar{
+  background-color: #FFF;
+  border-color: #00A090;
+  border-style:solid;
+  border-width:medium;
+  border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+  .container-fluid {
+    background-color: #00A090;
+  }
+  .navbar-toggle {
+    background-color: #FFF;
+  }
+  .navbar-nav{
+    background-color: #FFF;
+    border-radius: 10px;
+  }
+}
+
+.col-md-8{
+  margin-bottom:30px !important;
+}
+
+.navbar-brand{
+  background-color: #00A090 !important;
+  color:white !important;
+}
+
+body {
+  background-color: #DDD;
+  margin-bottom: 60px;
+}
+
+hr {
+  background-color: #00A090;
+  height: 2px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.container{
+  background-color: #FFF;
+  border-radius: 10px;
+}
+
+.clear{
+  background-color: #DDD;
+}
+
+.footer {
+  position:fixed;
+  bottom:0;
+  display:inline-block;
+  width: 100%;
+}
+
+.footer .container{
+  background-color: #BBB;
+  border-width:thin;
+  border-style: solid;
+  border-color: #00A090;
+}
+
+.thumbnail:hover{
+  border-color:#00A090 !important;
+}
+
+
+.active{
+  border-width: medium;
+  border-style: solid;
+  border-color: #00A090 !important;
+  font-weight: bold !important;
+  margin:-3px;
+}
+
+.thumbnail{
+  padding: 3px;
+  margin: 3px;
+}
+
+.comparisonheader{
+  text-align: center;
+  color:#00A090;
+}

@@ -1,0 +1,7887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Demo - Data Collected</title>
+  <link rel="shortcut icon" href="icosohedron.ico">
+  <link rel="icon" hfref = "icosohedron.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Latest compiled and minified JavaScript -->
+</head>
+<body>
+<div id="wrap">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Homework 6: What's the Weather Like?</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="vstemperature.html">Temperature</a></li>
+            <li><a href="vshumidity.html">Humidity</a></li>
+            <li><a href="vscloudiness.html">Cloudiness</a></li>
+            <li><a href="vswindspeed.html">Wind Speed</a></li>
+          </ul>
+        </li>
+        <li><a href="comparison.html">Comparison</a></li>
+        <li><a href="data.html" class="active"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Data</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="container">
+  <h1>Data</h1>
+  <hr>
+  <div class="row">
+    <div class="col-md-12" style="overflow-x:auto; height: 600px;">
+      The following table showcases the data that was collected:<br />
+      <table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">ID</th>
+<th title="Field #2">City Name</th>
+<th title="Field #3">Country Code</th>
+<th title="Field #4">Latitude</th>
+<th title="Field #5">Longitude</th>
+<th title="Field #6">Temperature (F)</th>
+<th title="Field #7">Humidity</th>
+<th title="Field #8">Cloudiness</th>
+<th title="Field #9">Cloudiness Description</th>
+<th title="Field #10">Cloudiness Percentage</th>
+<th title="Field #11">Wind Speed (mph)</th>
+</tr></thead>
+<tbody><tr>
+<td align="right">0</td>
+<td>hornepayne</td>
+<td>ca</td>
+<td align="right">49.216666999999994</td>
+<td align="right">-84.783333</td>
+<td align="right">58.8</td>
+<td align="right">81</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">92</td>
+<td align="right">3.96</td>
+</tr>
+<tr>
+<td align="right">1</td>
+<td>nenjiang</td>
+<td>cn</td>
+<td align="right">49.18333300000002</td>
+<td align="right">125.21666699999999</td>
+<td align="right">36.12</td>
+<td align="right">75</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.39</td>
+</tr>
+<tr>
+<td align="right">2</td>
+<td>bama</td>
+<td>ng</td>
+<td align="right">11.522103</td>
+<td align="right">13.685579</td>
+<td align="right">80.13</td>
+<td align="right">59</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">3.85</td>
+</tr>
+<tr>
+<td align="right">3</td>
+<td>cah ab</td>
+<td>af</td>
+<td align="right">37.397734</td>
+<td align="right">69.814644</td>
+<td align="right">50.7</td>
+<td align="right">64</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">6.08</td>
+</tr>
+<tr>
+<td align="right">4</td>
+<td>tanout</td>
+<td>ne</td>
+<td align="right">14.9702778</td>
+<td align="right">8.8916667</td>
+<td align="right">91.2</td>
+<td align="right">19</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">44</td>
+<td align="right">9.55</td>
+</tr>
+<tr>
+<td align="right">5</td>
+<td>sukhobuzimskoye</td>
+<td>ru</td>
+<td align="right">56.50000000000001</td>
+<td align="right">93.27277800000002</td>
+<td align="right">46.4</td>
+<td align="right">93</td>
+<td>Rain</td>
+<td>light intensity shower rain</td>
+<td align="right">40</td>
+<td align="right">11.18</td>
+</tr>
+<tr>
+<td align="right">6</td>
+<td>sherlovaya gora</td>
+<td>ru</td>
+<td align="right">50.56666700000001</td>
+<td align="right">116.25</td>
+<td align="right">44.76</td>
+<td align="right">57</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">36</td>
+<td align="right">10.22</td>
+</tr>
+<tr>
+<td align="right">7</td>
+<td>aksu</td>
+<td>kz</td>
+<td align="right">52.45861099999999</td>
+<td align="right">71.985833</td>
+<td align="right">40.44</td>
+<td align="right">79</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.95</td>
+</tr>
+<tr>
+<td align="right">8</td>
+<td>kargil</td>
+<td>in</td>
+<td align="right">34.566667</td>
+<td align="right">76.09999999999998</td>
+<td align="right">23.88</td>
+<td align="right">78</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">56</td>
+<td align="right">1.61</td>
+</tr>
+<tr>
+<td align="right">9</td>
+<td>unguia</td>
+<td>co</td>
+<td align="right">8.043346</td>
+<td align="right">-77.094527</td>
+<td align="right">89.6</td>
+<td align="right">66</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td align="right">10</td>
+<td>les cayes</td>
+<td>ht</td>
+<td align="right">18.200000000000003</td>
+<td align="right">-73.75</td>
+<td align="right">84.63</td>
+<td align="right">93</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">14.92</td>
+</tr>
+<tr>
+<td align="right">11</td>
+<td>bowen</td>
+<td>au</td>
+<td align="right">-20.013670000000005</td>
+<td align="right">148.247543</td>
+<td align="right">60.8</td>
+<td align="right">93</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">12</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td align="right">12</td>
+<td>henderson</td>
+<td>us</td>
+<td align="right">36.3294444</td>
+<td align="right">-78.3994444</td>
+<td align="right">82.49</td>
+<td align="right">67</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td align="right">13</td>
+<td>surt</td>
+<td>ly</td>
+<td align="right">31.206111099999994</td>
+<td align="right">16.594722199999996</td>
+<td align="right">78.42</td>
+<td align="right">94</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">80</td>
+<td align="right">5.64</td>
+</tr>
+<tr>
+<td align="right">14</td>
+<td>sao felipe</td>
+<td>br</td>
+<td align="right">-14.816666999999999</td>
+<td align="right">-41.383333</td>
+<td align="right">77.0</td>
+<td align="right">47</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">14.99</td>
+</tr>
+<tr>
+<td align="right">15</td>
+<td>pishva</td>
+<td>ir</td>
+<td align="right">35.30799999999999</td>
+<td align="right">51.7267</td>
+<td align="right">69.82</td>
+<td align="right">34</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td align="right">16</td>
+<td>salihorsk</td>
+<td>by</td>
+<td align="right">52.8</td>
+<td align="right">27.533333300000006</td>
+<td align="right">42.51</td>
+<td align="right">87</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">15.14</td>
+</tr>
+<tr>
+<td align="right">17</td>
+<td>kotelnich</td>
+<td>ru</td>
+<td align="right">58.3089</td>
+<td align="right">48.348000000000006</td>
+<td align="right">48.9</td>
+<td align="right">89</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">64</td>
+<td align="right">12.91</td>
+</tr>
+<tr>
+<td align="right">18</td>
+<td>menongue</td>
+<td>ao</td>
+<td align="right">-14.661639000000003</td>
+<td align="right">17.688224</td>
+<td align="right">74.28</td>
+<td align="right">45</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">56</td>
+<td align="right">4.97</td>
+</tr>
+<tr>
+<td align="right">19</td>
+<td>kuching</td>
+<td>my</td>
+<td align="right">1.55</td>
+<td align="right">110.333333</td>
+<td align="right">73.4</td>
+<td align="right">94</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">75</td>
+<td align="right">4.85</td>
+</tr>
+<tr>
+<td align="right">20</td>
+<td>marawi</td>
+<td>sd</td>
+<td align="right">18.4833333</td>
+<td align="right">31.816666700000003</td>
+<td align="right">82.29</td>
+<td align="right">25</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">4.07</td>
+</tr>
+<tr>
+<td align="right">21</td>
+<td>arkhangelos</td>
+<td>gr</td>
+<td align="right">36.18333330000001</td>
+<td align="right">28.1333333</td>
+<td align="right">78.8</td>
+<td align="right">61</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">14.99</td>
+</tr>
+<tr>
+<td align="right">22</td>
+<td>tougue</td>
+<td>gn</td>
+<td align="right">11.45</td>
+<td align="right">-11.6833333</td>
+<td align="right">72.39</td>
+<td align="right">87</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">2.06</td>
+</tr>
+<tr>
+<td align="right">23</td>
+<td>tachi</td>
+<td>tw</td>
+<td align="right">24.8833333</td>
+<td align="right">121.28333329999997</td>
+<td align="right">77.0</td>
+<td align="right">78</td>
+<td>Rain</td>
+<td>light intensity shower rain</td>
+<td align="right">75</td>
+<td align="right">20.8</td>
+</tr>
+<tr>
+<td align="right">24</td>
+<td>mombaca</td>
+<td>br</td>
+<td align="right">-5.75</td>
+<td align="right">-39.633333</td>
+<td align="right">88.23</td>
+<td align="right">32</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">12</td>
+<td align="right">7.87</td>
+</tr>
+<tr>
+<td align="right">25</td>
+<td>sao borja</td>
+<td>br</td>
+<td align="right">-28.65</td>
+<td align="right">-56.0</td>
+<td align="right">68.34</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>heavy intensity rain</td>
+<td align="right">92</td>
+<td align="right">5.64</td>
+</tr>
+<tr>
+<td align="right">26</td>
+<td>unye</td>
+<td>tr</td>
+<td align="right">41.131389000000006</td>
+<td align="right">37.2825</td>
+<td align="right">62.6</td>
+<td align="right">88</td>
+<td>Rain</td>
+<td>light intensity shower rain</td>
+<td align="right">75</td>
+<td align="right">20.8</td>
+</tr>
+<tr>
+<td align="right">27</td>
+<td>zhitikara</td>
+<td>kz</td>
+<td align="right">52.190833000000005</td>
+<td align="right">61.200556</td>
+<td align="right">49.8</td>
+<td align="right">58</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">8.66</td>
+</tr>
+<tr>
+<td align="right">28</td>
+<td>isangel</td>
+<td>vu</td>
+<td align="right">-19.55</td>
+<td align="right">169.26666670000003</td>
+<td align="right">73.47</td>
+<td align="right">100</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">92</td>
+<td align="right">16.93</td>
+</tr>
+<tr>
+<td align="right">29</td>
+<td>serravalle pistoiese</td>
+<td>it</td>
+<td align="right">43.900000000000006</td>
+<td align="right">10.816666999999999</td>
+<td align="right">61.65</td>
+<td align="right">39</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">10.29</td>
+</tr>
+<tr>
+<td align="right">30</td>
+<td>castiglion fiorentino</td>
+<td>it</td>
+<td align="right">43.333333</td>
+<td align="right">11.916667000000004</td>
+<td align="right">57.2</td>
+<td align="right">47</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td align="right">31</td>
+<td>forbes</td>
+<td>au</td>
+<td align="right">-33.384361000000006</td>
+<td align="right">148.007599</td>
+<td align="right">51.06</td>
+<td align="right">94</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">80</td>
+<td align="right">7.54</td>
+</tr>
+<tr>
+<td align="right">32</td>
+<td>bo phloi</td>
+<td>th</td>
+<td align="right">14.323611000000001</td>
+<td align="right">99.51611100000001</td>
+<td align="right">74.73</td>
+<td align="right">84</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">5.64</td>
+</tr>
+<tr>
+<td align="right">33</td>
+<td>nola</td>
+<td>cf</td>
+<td align="right">3.5333333</td>
+<td align="right">16.0666667</td>
+<td align="right">71.94</td>
+<td align="right">96</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">1.95</td>
+</tr>
+<tr>
+<td align="right">34</td>
+<td>victor harbor</td>
+<td>au</td>
+<td align="right">-35.550419</td>
+<td align="right">138.621536</td>
+<td align="right">50.0</td>
+<td align="right">57</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td align="right">35</td>
+<td>binzhou</td>
+<td>cn</td>
+<td align="right">45.752809000000006</td>
+<td align="right">127.47986300000001</td>
+<td align="right">37.11</td>
+<td align="right">84</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">3.4</td>
+</tr>
+<tr>
+<td align="right">36</td>
+<td>apache junction</td>
+<td>us</td>
+<td align="right">33.415</td>
+<td align="right">-111.5488889</td>
+<td align="right">95.04</td>
+<td align="right">20</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td align="right">37</td>
+<td>kutum</td>
+<td>sd</td>
+<td align="right">14.200000000000001</td>
+<td align="right">24.6666667</td>
+<td align="right">86.16</td>
+<td align="right">19</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">88</td>
+<td align="right">10.22</td>
+</tr>
+<tr>
+<td align="right">38</td>
+<td>konya</td>
+<td>tr</td>
+<td align="right">37.871354</td>
+<td align="right">32.484636</td>
+<td align="right">62.6</td>
+<td align="right">55</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">21.92</td>
+</tr>
+<tr>
+<td align="right">39</td>
+<td>necochea</td>
+<td>ar</td>
+<td align="right">-38.547259</td>
+<td align="right">-58.736753</td>
+<td align="right">64.38</td>
+<td align="right">64</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">92</td>
+<td align="right">8.43</td>
+</tr>
+<tr>
+<td align="right">40</td>
+<td>maridi</td>
+<td>sd</td>
+<td align="right">4.9147222</td>
+<td align="right">29.476944400000008</td>
+<td align="right">69.96</td>
+<td align="right">94</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">44</td>
+<td align="right">6.2</td>
+</tr>
+<tr>
+<td align="right">41</td>
+<td>biltine</td>
+<td>td</td>
+<td align="right">14.5333333</td>
+<td align="right">20.9166667</td>
+<td align="right">88.14</td>
+<td align="right">23</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">88</td>
+<td align="right">7.76</td>
+</tr>
+<tr>
+<td align="right">42</td>
+<td>traverse city</td>
+<td>us</td>
+<td align="right">44.763055600000015</td>
+<td align="right">-85.6205556</td>
+<td align="right">73.36</td>
+<td align="right">62</td>
+<td>Mist</td>
+<td>mist</td>
+<td align="right">75</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td align="right">43</td>
+<td>le vauclin</td>
+<td>mq</td>
+<td align="right">14.5333333</td>
+<td align="right">-60.83333330000001</td>
+<td align="right">81.39</td>
+<td align="right">83</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">88</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td align="right">44</td>
+<td>novaya maka</td>
+<td>ru</td>
+<td align="right">41.771729</td>
+<td align="right">48.361489000000006</td>
+<td align="right">72.3</td>
+<td align="right">95</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">8.43</td>
+</tr>
+<tr>
+<td align="right">45</td>
+<td>bossier city</td>
+<td>us</td>
+<td align="right">32.5158333</td>
+<td align="right">-93.7319444</td>
+<td align="right">87.87</td>
+<td align="right">53</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">90</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td align="right">46</td>
+<td>peace river</td>
+<td>ca</td>
+<td align="right">56.233333</td>
+<td align="right">-117.283333</td>
+<td align="right">59.0</td>
+<td align="right">41</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">75</td>
+<td align="right">16.11</td>
+</tr>
+<tr>
+<td align="right">47</td>
+<td>sunland park</td>
+<td>us</td>
+<td align="right">31.7963889</td>
+<td align="right">-106.5794444</td>
+<td align="right">89.6</td>
+<td align="right">21</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td align="right">48</td>
+<td>rankovce</td>
+<td>mk</td>
+<td align="right">42.18194439999999</td>
+<td align="right">22.122777799999998</td>
+<td align="right">51.8</td>
+<td align="right">43</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">14.99</td>
+</tr>
+<tr>
+<td align="right">49</td>
+<td>lormi</td>
+<td>in</td>
+<td align="right">22.283333000000002</td>
+<td align="right">81.73333299999999</td>
+<td align="right">72.93</td>
+<td align="right">89</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">24</td>
+<td align="right">2.62</td>
+</tr>
+<tr>
+<td align="right">50</td>
+<td>nauta</td>
+<td>pe</td>
+<td align="right">-4.5333333</td>
+<td align="right">-73.55</td>
+<td align="right">91.83</td>
+<td align="right">50</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">44</td>
+<td align="right">3.4</td>
+</tr>
+<tr>
+<td align="right">51</td>
+<td>bukene</td>
+<td>tz</td>
+<td align="right">-4.2333333</td>
+<td align="right">32.8833333</td>
+<td align="right">72.66</td>
+<td align="right">43</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">11.79</td>
+</tr>
+<tr>
+<td align="right">52</td>
+<td>cravo norte</td>
+<td>co</td>
+<td align="right">6.301735000000001</td>
+<td align="right">-70.204154</td>
+<td align="right">87.15</td>
+<td align="right">69</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">32</td>
+<td align="right">7.99</td>
+</tr>
+<tr>
+<td align="right">53</td>
+<td>agfalva</td>
+<td>hu</td>
+<td align="right">47.68991</td>
+<td align="right">16.516575999999997</td>
+<td align="right">44.6</td>
+<td align="right">65</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td align="right">54</td>
+<td>puerto cabezas</td>
+<td>ni</td>
+<td align="right">14.0333333</td>
+<td align="right">-83.3833333</td>
+<td align="right">82.4</td>
+<td align="right">83</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">75</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td align="right">55</td>
+<td>barahan</td>
+<td>ph</td>
+<td align="right">13.0121</td>
+<td align="right">120.76200000000001</td>
+<td align="right">73.92</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">100</td>
+<td align="right">2.39</td>
+</tr>
+<tr>
+<td align="right">56</td>
+<td>ndele</td>
+<td>cf</td>
+<td align="right">8.4091667</td>
+<td align="right">20.653055600000002</td>
+<td align="right">73.65</td>
+<td align="right">92</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">2.95</td>
+</tr>
+<tr>
+<td align="right">57</td>
+<td>wote</td>
+<td>ke</td>
+<td align="right">-1.7833333</td>
+<td align="right">37.6333333</td>
+<td align="right">65.37</td>
+<td align="right">90</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">48</td>
+<td align="right">7.31</td>
+</tr>
+<tr>
+<td align="right">58</td>
+<td>palmares do sul</td>
+<td>br</td>
+<td align="right">-30.26666700000001</td>
+<td align="right">-50.516667</td>
+<td align="right">68.0</td>
+<td align="right">94</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">90</td>
+<td align="right">10.29</td>
+</tr>
+<tr>
+<td align="right">59</td>
+<td>pastos bons</td>
+<td>br</td>
+<td align="right">-6.6</td>
+<td align="right">-44.08333299999999</td>
+<td align="right">89.4</td>
+<td align="right">40</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">24</td>
+<td align="right">3.51</td>
+</tr>
+<tr>
+<td align="right">60</td>
+<td>rio grande</td>
+<td>br</td>
+<td align="right">-32.033333</td>
+<td align="right">-52.08333300000001</td>
+<td align="right">66.2</td>
+<td align="right">82</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">90</td>
+<td align="right">13.87</td>
+</tr>
+<tr>
+<td align="right">61</td>
+<td>kungurtug</td>
+<td>ru</td>
+<td align="right">50.59944399999999</td>
+<td align="right">97.522778</td>
+<td align="right">34.86</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">100</td>
+<td align="right">3.74</td>
+</tr>
+<tr>
+<td align="right">62</td>
+<td>ararangua</td>
+<td>br</td>
+<td align="right">-28.933332999999998</td>
+<td align="right">-49.483333</td>
+<td align="right">67.98</td>
+<td align="right">94</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">88</td>
+<td align="right">13.69</td>
+</tr>
+<tr>
+<td align="right">63</td>
+<td>atyashevo</td>
+<td>ru</td>
+<td align="right">54.564431000000006</td>
+<td align="right">46.069047</td>
+<td align="right">44.85</td>
+<td align="right">88</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">24</td>
+<td align="right">11.79</td>
+</tr>
+<tr>
+<td align="right">64</td>
+<td>mongoumba</td>
+<td>cf</td>
+<td align="right">3.6333333</td>
+<td align="right">18.600000000000005</td>
+<td align="right">76.35</td>
+<td align="right">85</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">44</td>
+<td align="right">2.62</td>
+</tr>
+<tr>
+<td align="right">65</td>
+<td>richard toll</td>
+<td>sn</td>
+<td align="right">16.4666667</td>
+<td align="right">-15.6833333</td>
+<td align="right">87.15</td>
+<td align="right">58</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">68</td>
+<td align="right">3.74</td>
+</tr>
+<tr>
+<td align="right">66</td>
+<td>kieta</td>
+<td>pg</td>
+<td align="right">-6.216666700000002</td>
+<td align="right">155.6333333</td>
+<td align="right">76.98</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">56</td>
+<td align="right">18.28</td>
+</tr>
+<tr>
+<td align="right">67</td>
+<td>tsienyane</td>
+<td>bw</td>
+<td align="right">-21.016666700000005</td>
+<td align="right">24.3333333</td>
+<td align="right">67.26</td>
+<td align="right">21</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">6.98</td>
+</tr>
+<tr>
+<td align="right">68</td>
+<td>autun</td>
+<td>fr</td>
+<td align="right">46.95487800000001</td>
+<td align="right">4.300357</td>
+<td align="right">51.82</td>
+<td align="right">57</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td align="right">69</td>
+<td>rajshahi</td>
+<td>bd</td>
+<td align="right">24.3666667</td>
+<td align="right">88.59999999999998</td>
+<td align="right">77.52</td>
+<td align="right">95</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">48</td>
+<td align="right">4.74</td>
+</tr>
+<tr>
+<td align="right">70</td>
+<td>barcelos</td>
+<td>br</td>
+<td align="right">-1.0</td>
+<td align="right">-62.96666700000001</td>
+<td align="right">81.21</td>
+<td align="right">82</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">76</td>
+<td align="right">4.18</td>
+</tr>
+<tr>
+<td align="right">71</td>
+<td>bure</td>
+<td>et</td>
+<td align="right">10.7</td>
+<td align="right">37.06666700000001</td>
+<td align="right">57.18</td>
+<td align="right">78</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">2.95</td>
+</tr>
+<tr>
+<td align="right">72</td>
+<td>marsa matruh</td>
+<td>eg</td>
+<td align="right">31.35000000000001</td>
+<td align="right">27.2333333</td>
+<td align="right">78.8</td>
+<td align="right">74</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td align="right">73</td>
+<td>nuoro</td>
+<td>it</td>
+<td align="right">40.316667</td>
+<td align="right">9.350000000000001</td>
+<td align="right">71.6</td>
+<td align="right">46</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">10.29</td>
+</tr>
+<tr>
+<td align="right">74</td>
+<td>umbita</td>
+<td>co</td>
+<td align="right">5.220408000000001</td>
+<td align="right">-73.456953</td>
+<td align="right">65.64</td>
+<td align="right">49</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">2.62</td>
+</tr>
+<tr>
+<td align="right">75</td>
+<td>nguru</td>
+<td>ng</td>
+<td align="right">12.879100000000001</td>
+<td align="right">10.4526</td>
+<td align="right">77.43</td>
+<td align="right">66</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">3.62</td>
+</tr>
+<tr>
+<td align="right">76</td>
+<td>sakakah</td>
+<td>sa</td>
+<td align="right">29.969742000000004</td>
+<td align="right">40.206414</td>
+<td align="right">91.4</td>
+<td align="right">13</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">7.76</td>
+</tr>
+<tr>
+<td align="right">77</td>
+<td>manono</td>
+<td>cd</td>
+<td align="right">-7.3</td>
+<td align="right">27.416667</td>
+<td align="right">76.8</td>
+<td align="right">53</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">36</td>
+<td align="right">5.19</td>
+</tr>
+<tr>
+<td align="right">78</td>
+<td>savannah bight</td>
+<td>hn</td>
+<td align="right">16.45</td>
+<td align="right">-85.84999999999998</td>
+<td align="right">84.09</td>
+<td align="right">98</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">44</td>
+<td align="right">13.24</td>
+</tr>
+<tr>
+<td align="right">79</td>
+<td>show low</td>
+<td>us</td>
+<td align="right">34.2541667</td>
+<td align="right">-110.0291667</td>
+<td align="right">78.6</td>
+<td align="right">33</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td align="right">80</td>
+<td>nemuro</td>
+<td>jp</td>
+<td align="right">43.32361100000001</td>
+<td align="right">145.57500000000002</td>
+<td align="right">59.25</td>
+<td align="right">100</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">44</td>
+<td align="right">13.13</td>
+</tr>
+<tr>
+<td align="right">81</td>
+<td>palestine</td>
+<td>us</td>
+<td align="right">31.761944400000015</td>
+<td align="right">-95.6305556</td>
+<td align="right">84.02</td>
+<td align="right">69</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">1</td>
+<td align="right">4.85</td>
+</tr>
+<tr>
+<td align="right">82</td>
+<td>suratgarh</td>
+<td>in</td>
+<td align="right">29.316667</td>
+<td align="right">73.9</td>
+<td align="right">73.65</td>
+<td align="right">86</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.84</td>
+</tr>
+<tr>
+<td align="right">83</td>
+<td>constitucion</td>
+<td>cl</td>
+<td align="right">-35.333333</td>
+<td align="right">-72.416667</td>
+<td align="right">57.36</td>
+<td align="right">80</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">88</td>
+<td align="right">14.7</td>
+</tr>
+<tr>
+<td align="right">84</td>
+<td>storsteinnes</td>
+<td>no</td>
+<td align="right">69.23333300000002</td>
+<td align="right">19.233333</td>
+<td align="right">41.0</td>
+<td align="right">86</td>
+<td>Rain</td>
+<td>light intensity shower rain</td>
+<td align="right">90</td>
+<td align="right">23.04</td>
+</tr>
+<tr>
+<td align="right">85</td>
+<td>wuchang</td>
+<td>cn</td>
+<td align="right">44.91428200000001</td>
+<td align="right">127.15000700000002</td>
+<td align="right">38.46</td>
+<td align="right">82</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.73</td>
+</tr>
+<tr>
+<td align="right">86</td>
+<td>kemijarvi</td>
+<td>fi</td>
+<td align="right">66.66666700000002</td>
+<td align="right">27.416666999999997</td>
+<td align="right">39.9</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">0</td>
+<td align="right">7.99</td>
+</tr>
+<tr>
+<td align="right">87</td>
+<td>dikson</td>
+<td>ru</td>
+<td align="right">73.50694399999999</td>
+<td align="right">80.546389</td>
+<td align="right">39.99</td>
+<td align="right">95</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">92</td>
+<td align="right">27.56</td>
+</tr>
+<tr>
+<td align="right">88</td>
+<td>pineville</td>
+<td>us</td>
+<td align="right">31.3222222</td>
+<td align="right">-92.4341667</td>
+<td align="right">84.94</td>
+<td align="right">61</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">1</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td align="right">89</td>
+<td>kharagpur</td>
+<td>in</td>
+<td align="right">22.333332999999996</td>
+<td align="right">87.333333</td>
+<td align="right">78.96</td>
+<td align="right">94</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">56</td>
+<td align="right">6.08</td>
+</tr>
+<tr>
+<td align="right">90</td>
+<td>baley</td>
+<td>ru</td>
+<td align="right">51.60000000000001</td>
+<td align="right">116.633333</td>
+<td align="right">39.0</td>
+<td align="right">63</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">6.31</td>
+</tr>
+<tr>
+<td align="right">91</td>
+<td>zemaiciu naumiestis</td>
+<td>lt</td>
+<td align="right">55.3591667</td>
+<td align="right">21.702222200000005</td>
+<td align="right">44.49</td>
+<td align="right">93</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">12</td>
+<td align="right">9.22</td>
+</tr>
+<tr>
+<td align="right">92</td>
+<td>myanaung</td>
+<td>mm</td>
+<td align="right">18.2833333</td>
+<td align="right">95.3166667</td>
+<td align="right">74.28</td>
+<td align="right">100</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">4.07</td>
+</tr>
+<tr>
+<td align="right">93</td>
+<td>ust-maya</td>
+<td>ru</td>
+<td align="right">60.416667</td>
+<td align="right">134.533333</td>
+<td align="right">28.83</td>
+<td align="right">86</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">24</td>
+<td align="right">3.06</td>
+</tr>
+<tr>
+<td align="right">94</td>
+<td>bose</td>
+<td>cn</td>
+<td align="right">23.899722000000004</td>
+<td align="right">106.613333</td>
+<td align="right">70.95</td>
+<td align="right">99</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">92</td>
+<td align="right">2.28</td>
+</tr>
+<tr>
+<td align="right">95</td>
+<td>farafenni</td>
+<td>gm</td>
+<td align="right">13.5666667</td>
+<td align="right">-15.6</td>
+<td align="right">80.85</td>
+<td align="right">83</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">80</td>
+<td align="right">4.52</td>
+</tr>
+<tr>
+<td align="right">96</td>
+<td>valleyview</td>
+<td>ca</td>
+<td align="right">55.066667</td>
+<td align="right">-117.283333</td>
+<td align="right">57.9</td>
+<td align="right">65</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">14.36</td>
+</tr>
+<tr>
+<td align="right">97</td>
+<td>marihatag</td>
+<td>ph</td>
+<td align="right">8.793611</td>
+<td align="right">126.29694399999998</td>
+<td align="right">82.47</td>
+<td align="right">100</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">11.23</td>
+</tr>
+<tr>
+<td align="right">98</td>
+<td>saucillo</td>
+<td>mx</td>
+<td align="right">28.016666999999998</td>
+<td align="right">-105.283333</td>
+<td align="right">91.74</td>
+<td align="right">23</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">4.63</td>
+</tr>
+<tr>
+<td align="right">99</td>
+<td>nizhniy baskunchak</td>
+<td>ru</td>
+<td align="right">48.21977600000001</td>
+<td align="right">46.831053</td>
+<td align="right">64.2</td>
+<td align="right">87</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">76</td>
+<td align="right">10.11</td>
+</tr>
+<tr>
+<td align="right">100</td>
+<td>cayenne</td>
+<td>gf</td>
+<td align="right">4.9333333</td>
+<td align="right">-52.33333330000001</td>
+<td align="right">86.0</td>
+<td align="right">70</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">24</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td align="right">101</td>
+<td>rorvik</td>
+<td>no</td>
+<td align="right">64.85000000000001</td>
+<td align="right">11.233333000000004</td>
+<td align="right">48.99</td>
+<td align="right">81</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">75</td>
+<td align="right">34.45</td>
+</tr>
+<tr>
+<td align="right">102</td>
+<td>mbandaka</td>
+<td>cd</td>
+<td align="right">0.066667</td>
+<td align="right">18.266667</td>
+<td align="right">74.1</td>
+<td align="right">92</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">24</td>
+<td align="right">0.83</td>
+</tr>
+<tr>
+<td align="right">103</td>
+<td>skovorodino</td>
+<td>ru</td>
+<td align="right">53.983332999999995</td>
+<td align="right">123.916667</td>
+<td align="right">34.5</td>
+<td align="right">80</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">2.39</td>
+</tr>
+<tr>
+<td align="right">104</td>
+<td>louisbourg</td>
+<td>ca</td>
+<td align="right">45.91666700000001</td>
+<td align="right">-59.983333</td>
+<td align="right">51.8</td>
+<td align="right">50</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td align="right">105</td>
+<td>sehithwa</td>
+<td>bw</td>
+<td align="right">-20.4666667</td>
+<td align="right">22.7166667</td>
+<td align="right">69.33</td>
+<td align="right">29</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">7.99</td>
+</tr>
+<tr>
+<td align="right">106</td>
+<td>ouargaye</td>
+<td>bf</td>
+<td align="right">11.5033333</td>
+<td align="right">0.05722220000000001</td>
+<td align="right">73.02</td>
+<td align="right">96</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">12</td>
+<td align="right">3.18</td>
+</tr>
+<tr>
+<td align="right">107</td>
+<td>cabinda</td>
+<td>ao</td>
+<td align="right">-5.550000000000001</td>
+<td align="right">12.2</td>
+<td align="right">75.63</td>
+<td align="right">99</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">24</td>
+<td align="right">10.56</td>
+</tr>
+<tr>
+<td align="right">108</td>
+<td>sterling</td>
+<td>us</td>
+<td align="right">40.6255556</td>
+<td align="right">-103.2072222</td>
+<td align="right">62.47</td>
+<td align="right">32</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">1</td>
+<td align="right">17.22</td>
+</tr>
+<tr>
+<td align="right">109</td>
+<td>khomeynishahr</td>
+<td>ir</td>
+<td align="right">32.70017500000001</td>
+<td align="right">51.52113400000001</td>
+<td align="right">66.2</td>
+<td align="right">76</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td align="right">110</td>
+<td>verkh-usugli</td>
+<td>ru</td>
+<td align="right">52.683333000000005</td>
+<td align="right">115.233333</td>
+<td align="right">29.1</td>
+<td align="right">73</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.39</td>
+</tr>
+<tr>
+<td align="right">111</td>
+<td>karmala</td>
+<td>in</td>
+<td align="right">18.416667</td>
+<td align="right">75.2</td>
+<td align="right">69.33</td>
+<td align="right">95</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">68</td>
+<td align="right">3.4</td>
+</tr>
+<tr>
+<td align="right">112</td>
+<td>brazzaville</td>
+<td>cg</td>
+<td align="right">-4.2591667</td>
+<td align="right">15.284722200000001</td>
+<td align="right">74.28</td>
+<td align="right">89</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">24</td>
+<td align="right">2.73</td>
+</tr>
+<tr>
+<td align="right">113</td>
+<td>safford</td>
+<td>us</td>
+<td align="right">32.833888900000005</td>
+<td align="right">-109.7069444</td>
+<td align="right">89.06</td>
+<td align="right">27</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">1</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td align="right">114</td>
+<td>havelock</td>
+<td>nz</td>
+<td align="right">-41.28333300000001</td>
+<td align="right">173.766667</td>
+<td align="right">55.02</td>
+<td align="right">77</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">7.65</td>
+</tr>
+<tr>
+<td align="right">115</td>
+<td>beringovskiy</td>
+<td>ru</td>
+<td align="right">63.050000000000004</td>
+<td align="right">179.316667</td>
+<td align="right">45.3</td>
+<td align="right">98</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">92</td>
+<td align="right">9.44</td>
+</tr>
+<tr>
+<td align="right">116</td>
+<td>delta</td>
+<td>mx</td>
+<td align="right">32.355</td>
+<td align="right">-115.193056</td>
+<td align="right">94.12</td>
+<td align="right">31</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">5</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td align="right">117</td>
+<td>zeya</td>
+<td>ru</td>
+<td align="right">53.75</td>
+<td align="right">127.266667</td>
+<td align="right">33.78</td>
+<td align="right">90</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.06</td>
+</tr>
+<tr>
+<td align="right">118</td>
+<td>cooma</td>
+<td>au</td>
+<td align="right">-36.234692</td>
+<td align="right">149.125977</td>
+<td align="right">39.81</td>
+<td align="right">98</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">92</td>
+<td align="right">3.4</td>
+</tr>
+<tr>
+<td align="right">119</td>
+<td>tangshan</td>
+<td>cn</td>
+<td align="right">37.33250000000001</td>
+<td align="right">114.70138900000002</td>
+<td align="right">55.2</td>
+<td align="right">93</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">92</td>
+<td align="right">2.95</td>
+</tr>
+<tr>
+<td align="right">120</td>
+<td>longview</td>
+<td>us</td>
+<td align="right">46.13833329999999</td>
+<td align="right">-122.9369444</td>
+<td align="right">73.18</td>
+<td align="right">52</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">1</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td align="right">121</td>
+<td>novoagansk</td>
+<td>ru</td>
+<td align="right">61.9449</td>
+<td align="right">76.66250000000001</td>
+<td align="right">53.31</td>
+<td align="right">97</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">5.53</td>
+</tr>
+<tr>
+<td align="right">122</td>
+<td>draguignan</td>
+<td>fr</td>
+<td align="right">43.536545</td>
+<td align="right">6.463455</td>
+<td align="right">68.95</td>
+<td align="right">55</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">1.12</td>
+</tr>
+<tr>
+<td align="right">123</td>
+<td>mitrofanovka</td>
+<td>ru</td>
+<td align="right">49.970833000000006</td>
+<td align="right">39.693889</td>
+<td align="right">48.09</td>
+<td align="right">92</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">64</td>
+<td align="right">6.42</td>
+</tr>
+<tr>
+<td align="right">124</td>
+<td>kalaleh</td>
+<td>ir</td>
+<td align="right">37.38071200000001</td>
+<td align="right">55.491639</td>
+<td align="right">60.24</td>
+<td align="right">82</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.95</td>
+</tr>
+<tr>
+<td align="right">125</td>
+<td>laguna beach</td>
+<td>us</td>
+<td align="right">33.542222200000005</td>
+<td align="right">-117.7822222</td>
+<td align="right">71.65</td>
+<td align="right">68</td>
+<td>Haze</td>
+<td>haze</td>
+<td align="right">75</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td align="right">126</td>
+<td>imeni poliny osipenko</td>
+<td>ru</td>
+<td align="right">52.42009999999999</td>
+<td align="right">136.4853</td>
+<td align="right">29.73</td>
+<td align="right">79</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.17</td>
+</tr>
+<tr>
+<td align="right">127</td>
+<td>dzhebariki-khaya</td>
+<td>ru</td>
+<td align="right">62.216667</td>
+<td align="right">135.80000000000004</td>
+<td align="right">37.74</td>
+<td align="right">88</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">80</td>
+<td align="right">5.97</td>
+</tr>
+<tr>
+<td align="right">128</td>
+<td>yei</td>
+<td>sd</td>
+<td align="right">4.0913889</td>
+<td align="right">30.6786111</td>
+<td align="right">69.51</td>
+<td align="right">91</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">44</td>
+<td align="right">4.85</td>
+</tr>
+<tr>
+<td align="right">129</td>
+<td>kaiyuan</td>
+<td>cn</td>
+<td align="right">23.697668</td>
+<td align="right">103.303723</td>
+<td align="right">58.35</td>
+<td align="right">94</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">12</td>
+<td align="right">2.39</td>
+</tr>
+<tr>
+<td align="right">130</td>
+<td>ano mera</td>
+<td>gr</td>
+<td align="right">37.45</td>
+<td align="right">25.399999999999995</td>
+<td align="right">65.61</td>
+<td align="right">72</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">24</td>
+<td align="right">29.97</td>
+</tr>
+<tr>
+<td align="right">131</td>
+<td>eskasem</td>
+<td>af</td>
+<td align="right">36.706932</td>
+<td align="right">71.570658</td>
+<td align="right">28.02</td>
+<td align="right">100</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">1.72</td>
+</tr>
+<tr>
+<td align="right">132</td>
+<td>mocambique</td>
+<td>mz</td>
+<td align="right">-15.0341667</td>
+<td align="right">40.7358333</td>
+<td align="right">77.16</td>
+<td align="right">95</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">6.31</td>
+</tr>
+<tr>
+<td align="right">133</td>
+<td>derventa</td>
+<td>ba</td>
+<td align="right">44.9772222</td>
+<td align="right">17.910277799999996</td>
+<td align="right">39.2</td>
+<td align="right">86</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td align="right">134</td>
+<td>sauda</td>
+<td>no</td>
+<td align="right">59.65000000000001</td>
+<td align="right">6.333333</td>
+<td align="right">38.91</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">92</td>
+<td align="right">11.01</td>
+</tr>
+<tr>
+<td align="right">135</td>
+<td>pervomayskoye</td>
+<td>ru</td>
+<td align="right">57.0761</td>
+<td align="right">86.23130000000002</td>
+<td align="right">45.66</td>
+<td align="right">100</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">64</td>
+<td align="right">5.3</td>
+</tr>
+<tr>
+<td align="right">136</td>
+<td>ondjiva</td>
+<td>ao</td>
+<td align="right">-17.066667</td>
+<td align="right">15.733332999999998</td>
+<td align="right">75.54</td>
+<td align="right">50</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">88</td>
+<td align="right">3.18</td>
+</tr>
+<tr>
+<td align="right">137</td>
+<td>lima</td>
+<td>us</td>
+<td align="right">40.74249999999999</td>
+<td align="right">-84.10527780000001</td>
+<td align="right">74.7</td>
+<td align="right">87</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">75</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td align="right">138</td>
+<td>arinos</td>
+<td>br</td>
+<td align="right">-15.916667000000004</td>
+<td align="right">-46.066667</td>
+<td align="right">86.7</td>
+<td align="right">22</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">7.99</td>
+</tr>
+<tr>
+<td align="right">139</td>
+<td>marmato</td>
+<td>co</td>
+<td align="right">5.478427</td>
+<td align="right">-75.592667</td>
+<td align="right">66.2</td>
+<td align="right">68</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">75</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td align="right">140</td>
+<td>yuryevets</td>
+<td>ru</td>
+<td align="right">57.32007300000002</td>
+<td align="right">43.104099999999995</td>
+<td align="right">46.83</td>
+<td align="right">100</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">92</td>
+<td align="right">16.37</td>
+</tr>
+<tr>
+<td align="right">141</td>
+<td>simpang</td>
+<td>id</td>
+<td align="right">-1.2666670000000002</td>
+<td align="right">104.083333</td>
+<td align="right">75.36</td>
+<td align="right">92</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">2.73</td>
+</tr>
+<tr>
+<td align="right">142</td>
+<td>nakhon si thammarat</td>
+<td>th</td>
+<td align="right">8.433333000000001</td>
+<td align="right">99.966667</td>
+<td align="right">76.26</td>
+<td align="right">100</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">3.96</td>
+</tr>
+<tr>
+<td align="right">143</td>
+<td>bonfim</td>
+<td>br</td>
+<td align="right">3.083333</td>
+<td align="right">-59.95000000000002</td>
+<td align="right">89.58</td>
+<td align="right">58</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">76</td>
+<td align="right">4.18</td>
+</tr>
+<tr>
+<td align="right">144</td>
+<td>vallenar</td>
+<td>cl</td>
+<td align="right">-28.570833000000004</td>
+<td align="right">-70.758056</td>
+<td align="right">69.33</td>
+<td align="right">64</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.62</td>
+</tr>
+<tr>
+<td align="right">145</td>
+<td>gornyy</td>
+<td>ru</td>
+<td align="right">50.760833000000005</td>
+<td align="right">136.439722</td>
+<td align="right">27.48</td>
+<td align="right">81</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.95</td>
+</tr>
+<tr>
+<td align="right">146</td>
+<td>parana</td>
+<td>ar</td>
+<td align="right">-31.731967000000004</td>
+<td align="right">-60.523801999999996</td>
+<td align="right">71.67</td>
+<td align="right">72</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">92</td>
+<td align="right">11.45</td>
+</tr>
+<tr>
+<td align="right">147</td>
+<td>dunmore town</td>
+<td>bs</td>
+<td align="right">25.5</td>
+<td align="right">-76.65</td>
+<td align="right">85.08</td>
+<td align="right">98</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">14.7</td>
+</tr>
+<tr>
+<td align="right">148</td>
+<td>luohe</td>
+<td>cn</td>
+<td align="right">33.571667</td>
+<td align="right">114.035278</td>
+<td align="right">60.06</td>
+<td align="right">90</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">92</td>
+<td align="right">9.89</td>
+</tr>
+<tr>
+<td align="right">149</td>
+<td>kitgum</td>
+<td>ug</td>
+<td align="right">3.2783333</td>
+<td align="right">32.8866667</td>
+<td align="right">75.45</td>
+<td align="right">53</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">92</td>
+<td align="right">3.06</td>
+</tr>
+<tr>
+<td align="right">150</td>
+<td>gewane</td>
+<td>et</td>
+<td align="right">10.166388999999999</td>
+<td align="right">40.645278</td>
+<td align="right">73.11</td>
+<td align="right">63</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">88</td>
+<td align="right">2.84</td>
+</tr>
+<tr>
+<td align="right">151</td>
+<td>hagerstown</td>
+<td>us</td>
+<td align="right">39.641666699999995</td>
+<td align="right">-77.7202778</td>
+<td align="right">70.97</td>
+<td align="right">90</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">75</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td align="right">152</td>
+<td>qiongshan</td>
+<td>cn</td>
+<td align="right">20.005833</td>
+<td align="right">110.35416700000002</td>
+<td align="right">75.2</td>
+<td align="right">100</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">4.47</td>
+</tr>
+<tr>
+<td align="right">153</td>
+<td>ulcinj</td>
+<td>me</td>
+<td align="right">41.92833300000001</td>
+<td align="right">19.206389000000005</td>
+<td align="right">59.0</td>
+<td align="right">28</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">19.46</td>
+</tr>
+<tr>
+<td align="right">154</td>
+<td>rudbar</td>
+<td>af</td>
+<td align="right">30.149999999999995</td>
+<td align="right">62.6</td>
+<td align="right">73.38</td>
+<td align="right">21</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">80</td>
+<td align="right">4.97</td>
+</tr>
+<tr>
+<td align="right">155</td>
+<td>puruliya</td>
+<td>in</td>
+<td align="right">23.333333</td>
+<td align="right">86.366667</td>
+<td align="right">75.0</td>
+<td align="right">94</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">24</td>
+<td align="right">3.51</td>
+</tr>
+<tr>
+<td align="right">156</td>
+<td>tambovka</td>
+<td>ru</td>
+<td align="right">47.31528300000001</td>
+<td align="right">47.37773</td>
+<td align="right">60.96</td>
+<td align="right">89</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">56</td>
+<td align="right">7.43</td>
+</tr>
+<tr>
+<td align="right">157</td>
+<td>monywa</td>
+<td>mm</td>
+<td align="right">22.116666699999996</td>
+<td align="right">95.13333330000002</td>
+<td align="right">74.55</td>
+<td align="right">94</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">12</td>
+<td align="right">4.52</td>
+</tr>
+<tr>
+<td align="right">158</td>
+<td>mayor pablo lagerenza</td>
+<td>py</td>
+<td align="right">-19.916667000000007</td>
+<td align="right">-60.783333</td>
+<td align="right">90.66</td>
+<td align="right">58</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">5.86</td>
+</tr>
+<tr>
+<td align="right">159</td>
+<td>posadas</td>
+<td>ar</td>
+<td align="right">-27.367077</td>
+<td align="right">-55.896078</td>
+<td align="right">67.1</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">90</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td align="right">160</td>
+<td>panorama</td>
+<td>br</td>
+<td align="right">-21.35</td>
+<td align="right">-51.85</td>
+<td align="right">98.22</td>
+<td align="right">22</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">7.99</td>
+</tr>
+<tr>
+<td align="right">161</td>
+<td>solano</td>
+<td>co</td>
+<td align="right">0.6993699999999999</td>
+<td align="right">-75.253526</td>
+<td align="right">88.68</td>
+<td align="right">52</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">2.84</td>
+</tr>
+<tr>
+<td align="right">162</td>
+<td>xining</td>
+<td>cn</td>
+<td align="right">36.616667</td>
+<td align="right">101.766667</td>
+<td align="right">45.75</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">92</td>
+<td align="right">2.73</td>
+</tr>
+<tr>
+<td align="right">163</td>
+<td>chimala</td>
+<td>tz</td>
+<td align="right">-8.85</td>
+<td align="right">34.01666670000001</td>
+<td align="right">58.26</td>
+<td align="right">78</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">4.52</td>
+</tr>
+<tr>
+<td align="right">164</td>
+<td>bartica</td>
+<td>gy</td>
+<td align="right">6.4</td>
+<td align="right">-58.6166667</td>
+<td align="right">77.0</td>
+<td align="right">94</td>
+<td>Thunderstorm</td>
+<td>thunderstorm</td>
+<td align="right">75</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td align="right">165</td>
+<td>cedar falls</td>
+<td>us</td>
+<td align="right">42.5277778</td>
+<td align="right">-92.4452778</td>
+<td align="right">59.99</td>
+<td align="right">96</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">90</td>
+<td align="right">14.99</td>
+</tr>
+<tr>
+<td align="right">166</td>
+<td>pula</td>
+<td>hr</td>
+<td align="right">44.86833330000001</td>
+<td align="right">13.8480556</td>
+<td align="right">56.03</td>
+<td align="right">43</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">19.46</td>
+</tr>
+<tr>
+<td align="right">167</td>
+<td>manoel urbano</td>
+<td>br</td>
+<td align="right">-8.883333</td>
+<td align="right">-69.3</td>
+<td align="right">87.78</td>
+<td align="right">78</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">20</td>
+<td align="right">2.51</td>
+</tr>
+<tr>
+<td align="right">168</td>
+<td>farafangana</td>
+<td>mg</td>
+<td align="right">-22.816666699999995</td>
+<td align="right">47.8333333</td>
+<td align="right">73.2</td>
+<td align="right">99</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">92</td>
+<td align="right">14.47</td>
+</tr>
+<tr>
+<td align="right">169</td>
+<td>sola</td>
+<td>vu</td>
+<td align="right">-13.883333300000002</td>
+<td align="right">167.55000000000004</td>
+<td align="right">78.6</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">92</td>
+<td align="right">19.73</td>
+</tr>
+<tr>
+<td align="right">170</td>
+<td>san pedro</td>
+<td>bo</td>
+<td align="right">-18.2833333</td>
+<td align="right">-59.8166667</td>
+<td align="right">89.6</td>
+<td align="right">62</td>
+<td>Thunderstorm</td>
+<td>thunderstorm</td>
+<td align="right">40</td>
+<td align="right">17.22</td>
+</tr>
+<tr>
+<td align="right">171</td>
+<td>piacabucu</td>
+<td>br</td>
+<td align="right">-10.4</td>
+<td align="right">-36.41666699999999</td>
+<td align="right">77.16</td>
+<td align="right">70</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">11.68</td>
+</tr>
+<tr>
+<td align="right">172</td>
+<td>bogoslovka</td>
+<td>ru</td>
+<td align="right">53.208372</td>
+<td align="right">44.801328</td>
+<td align="right">43.41</td>
+<td align="right">93</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">24</td>
+<td align="right">7.99</td>
+</tr>
+<tr>
+<td align="right">173</td>
+<td>cape canaveral</td>
+<td>us</td>
+<td align="right">28.405555599999996</td>
+<td align="right">-80.605</td>
+<td align="right">88.83</td>
+<td align="right">62</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">1</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td align="right">174</td>
+<td>bamako</td>
+<td>ml</td>
+<td align="right">12.650000000000002</td>
+<td align="right">-8.0</td>
+<td align="right">73.4</td>
+<td align="right">94</td>
+<td>Thunderstorm</td>
+<td>thunderstorm</td>
+<td align="right">20</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td align="right">175</td>
+<td>villanueva de cordoba</td>
+<td>es</td>
+<td align="right">38.322774</td>
+<td align="right">-4.628725</td>
+<td align="right">80.6</td>
+<td align="right">44</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">24</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td align="right">176</td>
+<td>tongzi</td>
+<td>cn</td>
+<td align="right">28.1375</td>
+<td align="right">106.82</td>
+<td align="right">62.58</td>
+<td align="right">99</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">92</td>
+<td align="right">2.62</td>
+</tr>
+<tr>
+<td align="right">177</td>
+<td>east london</td>
+<td>za</td>
+<td align="right">-33.011051</td>
+<td align="right">27.910049</td>
+<td align="right">69.33</td>
+<td align="right">100</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">14.58</td>
+</tr>
+<tr>
+<td align="right">178</td>
+<td>tias</td>
+<td>es</td>
+<td align="right">28.961076000000006</td>
+<td align="right">-13.645020999999998</td>
+<td align="right">75.99</td>
+<td align="right">73</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td align="right">179</td>
+<td>oxelosund</td>
+<td>se</td>
+<td align="right">58.666667</td>
+<td align="right">17.1</td>
+<td align="right">50.97</td>
+<td align="right">71</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">12.75</td>
+</tr>
+<tr>
+<td align="right">180</td>
+<td>ciudad guayana</td>
+<td>ve</td>
+<td align="right">8.3533333</td>
+<td align="right">-62.65277779999999</td>
+<td align="right">86.7</td>
+<td align="right">67</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">56</td>
+<td align="right">7.76</td>
+</tr>
+<tr>
+<td align="right">181</td>
+<td>kibala</td>
+<td>ao</td>
+<td align="right">-10.73366</td>
+<td align="right">14.979949</td>
+<td align="right">60.42</td>
+<td align="right">96</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">36</td>
+<td align="right">1.61</td>
+</tr>
+<tr>
+<td align="right">182</td>
+<td>jacareacanga</td>
+<td>br</td>
+<td align="right">-6.266667</td>
+<td align="right">-57.65</td>
+<td align="right">87.8</td>
+<td align="right">66</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td align="right">183</td>
+<td>malakal</td>
+<td>sd</td>
+<td align="right">9.536944399999998</td>
+<td align="right">31.656111100000007</td>
+<td align="right">81.39</td>
+<td align="right">61</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">6.64</td>
+</tr>
+<tr>
+<td align="right">184</td>
+<td>giyani</td>
+<td>za</td>
+<td align="right">-23.30246</td>
+<td align="right">30.718682</td>
+<td align="right">67.26</td>
+<td align="right">41</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">5.53</td>
+</tr>
+<tr>
+<td align="right">185</td>
+<td>russkaya polyana</td>
+<td>ru</td>
+<td align="right">53.77944400000001</td>
+<td align="right">73.880556</td>
+<td align="right">50.7</td>
+<td align="right">74</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">8.77</td>
+</tr>
+<tr>
+<td align="right">186</td>
+<td>karkaralinsk</td>
+<td>kz</td>
+<td align="right">49.405833000000015</td>
+<td align="right">75.474167</td>
+<td align="right">33.33</td>
+<td align="right">77</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.84</td>
+</tr>
+<tr>
+<td align="right">187</td>
+<td>marinette</td>
+<td>us</td>
+<td align="right">45.10000000000001</td>
+<td align="right">-87.6305556</td>
+<td align="right">68.63</td>
+<td align="right">82</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">90</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td align="right">188</td>
+<td>nieuw nickerie</td>
+<td>sr</td>
+<td align="right">5.949999999999999</td>
+<td align="right">-56.983333300000005</td>
+<td align="right">84.54</td>
+<td align="right">92</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">12</td>
+<td align="right">8.66</td>
+</tr>
+<tr>
+<td align="right">189</td>
+<td>hashtrud</td>
+<td>ir</td>
+<td align="right">37.47789999999999</td>
+<td align="right">47.050799999999995</td>
+<td align="right">45.21</td>
+<td align="right">70</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.51</td>
+</tr>
+<tr>
+<td align="right">190</td>
+<td>la cruz</td>
+<td>mx</td>
+<td align="right">23.916667</td>
+<td align="right">-106.9</td>
+<td align="right">87.15</td>
+<td align="right">71</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">48</td>
+<td align="right">3.62</td>
+</tr>
+<tr>
+<td align="right">191</td>
+<td>neuquen</td>
+<td>ar</td>
+<td align="right">-38.95160599999999</td>
+<td align="right">-68.059102</td>
+<td align="right">69.8</td>
+<td align="right">21</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td align="right">192</td>
+<td>carlibaba</td>
+<td>ro</td>
+<td align="right">47.58333300000001</td>
+<td align="right">25.133333</td>
+<td align="right">34.5</td>
+<td align="right">76</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">64</td>
+<td align="right">4.29</td>
+</tr>
+<tr>
+<td align="right">193</td>
+<td>polonnaruwa</td>
+<td>lk</td>
+<td align="right">7.933333299999999</td>
+<td align="right">81.0</td>
+<td align="right">72.39</td>
+<td align="right">99</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">88</td>
+<td align="right">2.62</td>
+</tr>
+<tr>
+<td align="right">194</td>
+<td>nouadhibou</td>
+<td>mr</td>
+<td align="right">20.900000000000002</td>
+<td align="right">-17.0666667</td>
+<td align="right">77.0</td>
+<td align="right">88</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td align="right">195</td>
+<td>dunkwa</td>
+<td>gh</td>
+<td align="right">5.966666700000001</td>
+<td align="right">-1.7833333</td>
+<td align="right">73.74</td>
+<td align="right">95</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">100</td>
+<td align="right">5.97</td>
+</tr>
+<tr>
+<td align="right">196</td>
+<td>izhevskoye</td>
+<td>ru</td>
+<td align="right">54.557</td>
+<td align="right">40.87530000000002</td>
+<td align="right">45.75</td>
+<td align="right">92</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">80</td>
+<td align="right">15.48</td>
+</tr>
+<tr>
+<td align="right">197</td>
+<td>banyo</td>
+<td>cm</td>
+<td align="right">6.75</td>
+<td align="right">11.8166667</td>
+<td align="right">63.84</td>
+<td align="right">96</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">64</td>
+<td align="right">3.18</td>
+</tr>
+<tr>
+<td align="right">198</td>
+<td>rapid valley</td>
+<td>us</td>
+<td align="right">44.06249999999999</td>
+<td align="right">-103.1458333</td>
+<td align="right">53.11</td>
+<td align="right">44</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">75</td>
+<td align="right">21.92</td>
+</tr>
+<tr>
+<td align="right">199</td>
+<td>otane</td>
+<td>nz</td>
+<td align="right">-39.883333</td>
+<td align="right">176.633333</td>
+<td align="right">49.8</td>
+<td align="right">63</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">8</td>
+<td align="right">18.95</td>
+</tr>
+<tr>
+<td align="right">200</td>
+<td>oktyabrskiy</td>
+<td>ru</td>
+<td align="right">56.072058000000006</td>
+<td align="right">42.122715</td>
+<td align="right">46.38</td>
+<td align="right">93</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">92</td>
+<td align="right">18.61</td>
+</tr>
+<tr>
+<td align="right">201</td>
+<td>pangai</td>
+<td>to</td>
+<td align="right">-19.800000000000004</td>
+<td align="right">-174.35000000000002</td>
+<td align="right">77.0</td>
+<td align="right">78</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td align="right">202</td>
+<td>ruteng</td>
+<td>id</td>
+<td align="right">-8.6136</td>
+<td align="right">120.4721</td>
+<td align="right">61.5</td>
+<td align="right">86</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.73</td>
+</tr>
+<tr>
+<td align="right">203</td>
+<td>pita</td>
+<td>gn</td>
+<td align="right">11.0833333</td>
+<td align="right">-12.4</td>
+<td align="right">70.32</td>
+<td align="right">95</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">12</td>
+<td align="right">2.17</td>
+</tr>
+<tr>
+<td align="right">204</td>
+<td>chengde</td>
+<td>cn</td>
+<td align="right">40.770278000000005</td>
+<td align="right">118.169722</td>
+<td align="right">42.51</td>
+<td align="right">87</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">2.51</td>
+</tr>
+<tr>
+<td align="right">205</td>
+<td>bastia</td>
+<td>fr</td>
+<td align="right">42.70277800000001</td>
+<td align="right">9.450000000000001</td>
+<td align="right">61.47</td>
+<td align="right">52</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td align="right">206</td>
+<td>cerro de pasco</td>
+<td>pe</td>
+<td align="right">-10.6833333</td>
+<td align="right">-76.2666667</td>
+<td align="right">46.74</td>
+<td align="right">92</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">92</td>
+<td align="right">2.17</td>
+</tr>
+<tr>
+<td align="right">207</td>
+<td>jalingo</td>
+<td>ng</td>
+<td align="right">8.883333000000004</td>
+<td align="right">11.366667000000001</td>
+<td align="right">75.18</td>
+<td align="right">85</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">32</td>
+<td align="right">6.98</td>
+</tr>
+<tr>
+<td align="right">208</td>
+<td>pemagatsel</td>
+<td>bt</td>
+<td align="right">27.0333333</td>
+<td align="right">91.45</td>
+<td align="right">64.83</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>heavy intensity rain</td>
+<td align="right">92</td>
+<td align="right">1.61</td>
+</tr>
+<tr>
+<td align="right">209</td>
+<td>myitkyina</td>
+<td>mm</td>
+<td align="right">25.3833333</td>
+<td align="right">97.4</td>
+<td align="right">72.21</td>
+<td align="right">99</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">92</td>
+<td align="right">2.17</td>
+</tr>
+<tr>
+<td align="right">210</td>
+<td>khash</td>
+<td>ir</td>
+<td align="right">28.221072</td>
+<td align="right">61.215819</td>
+<td align="right">63.12</td>
+<td align="right">64</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">92</td>
+<td align="right">3.85</td>
+</tr>
+<tr>
+<td align="right">211</td>
+<td>prince george</td>
+<td>ca</td>
+<td align="right">53.916667000000004</td>
+<td align="right">-122.766667</td>
+<td align="right">59.0</td>
+<td align="right">44</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">10.29</td>
+</tr>
+<tr>
+<td align="right">212</td>
+<td>hualmay</td>
+<td>pe</td>
+<td align="right">-11.090277799999999</td>
+<td align="right">-77.6294444</td>
+<td align="right">71.85</td>
+<td align="right">35</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">2.95</td>
+</tr>
+<tr>
+<td align="right">213</td>
+<td>poronaysk</td>
+<td>ru</td>
+<td align="right">49.21666700000001</td>
+<td align="right">143.116667</td>
+<td align="right">48.0</td>
+<td align="right">100</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">13.8</td>
+</tr>
+<tr>
+<td align="right">214</td>
+<td>the pas</td>
+<td>ca</td>
+<td align="right">53.816667</td>
+<td align="right">-101.233333</td>
+<td align="right">44.6</td>
+<td align="right">78</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">90</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td align="right">215</td>
+<td>bakaly</td>
+<td>ru</td>
+<td align="right">55.178889</td>
+<td align="right">53.802778</td>
+<td align="right">57.63</td>
+<td align="right">65</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">92</td>
+<td align="right">13.69</td>
+</tr>
+<tr>
+<td align="right">216</td>
+<td>santa maria del oro</td>
+<td>mx</td>
+<td align="right">25.933333</td>
+<td align="right">-105.366667</td>
+<td align="right">69.33</td>
+<td align="right">79</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">64</td>
+<td align="right">2.62</td>
+</tr>
+<tr>
+<td align="right">217</td>
+<td>mwinilunga</td>
+<td>zm</td>
+<td align="right">-11.7333333</td>
+<td align="right">24.4333333</td>
+<td align="right">72.03</td>
+<td align="right">38</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">12</td>
+<td align="right">3.74</td>
+</tr>
+<tr>
+<td align="right">218</td>
+<td>viseu</td>
+<td>br</td>
+<td align="right">-1.2</td>
+<td align="right">-46.116667</td>
+<td align="right">82.02</td>
+<td align="right">75</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">44</td>
+<td align="right">12.12</td>
+</tr>
+<tr>
+<td align="right">219</td>
+<td>vila do maio</td>
+<td>cv</td>
+<td align="right">15.133333299999999</td>
+<td align="right">-23.2166667</td>
+<td align="right">80.6</td>
+<td align="right">69</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td align="right">220</td>
+<td>aqtobe</td>
+<td>kz</td>
+<td align="right">50.29805599999999</td>
+<td align="right">57.181389</td>
+<td align="right">51.8</td>
+<td align="right">62</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">8.95</td>
+</tr>
+<tr>
+<td align="right">221</td>
+<td>mango</td>
+<td>tg</td>
+<td align="right">10.3591667</td>
+<td align="right">0.4708333000000001</td>
+<td align="right">79.5</td>
+<td align="right">79</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">24</td>
+<td align="right">2.62</td>
+</tr>
+<tr>
+<td align="right">222</td>
+<td>alto longa</td>
+<td>br</td>
+<td align="right">-5.25</td>
+<td align="right">-42.199999999999996</td>
+<td align="right">96.96</td>
+<td align="right">23</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">92</td>
+<td align="right">7.2</td>
+</tr>
+<tr>
+<td align="right">223</td>
+<td>el bagre</td>
+<td>co</td>
+<td align="right">7.592724000000002</td>
+<td align="right">-74.80857999999999</td>
+<td align="right">90.75</td>
+<td align="right">64</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">56</td>
+<td align="right">3.62</td>
+</tr>
+<tr>
+<td align="right">224</td>
+<td>la palma</td>
+<td>pa</td>
+<td align="right">7.433333299999998</td>
+<td align="right">-80.4833333</td>
+<td align="right">80.76</td>
+<td align="right">100</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">80</td>
+<td align="right">3.51</td>
+</tr>
+<tr>
+<td align="right">225</td>
+<td>agua dulce</td>
+<td>mx</td>
+<td align="right">18.133333</td>
+<td align="right">-94.133333</td>
+<td align="right">86.0</td>
+<td align="right">66</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td align="right">226</td>
+<td>businga</td>
+<td>cd</td>
+<td align="right">3.333333</td>
+<td align="right">20.883332999999997</td>
+<td align="right">74.01</td>
+<td align="right">91</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">68</td>
+<td align="right">0.16</td>
+</tr>
+<tr>
+<td align="right">227</td>
+<td>dalvik</td>
+<td>is</td>
+<td align="right">65.96666700000002</td>
+<td align="right">-18.533332999999995</td>
+<td align="right">42.8</td>
+<td align="right">75</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">75</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td align="right">228</td>
+<td>tendo</td>
+<td>jp</td>
+<td align="right">38.353610999999994</td>
+<td align="right">140.369722</td>
+<td align="right">53.4</td>
+<td align="right">98</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">100</td>
+<td align="right">1.05</td>
+</tr>
+<tr>
+<td align="right">229</td>
+<td>idar</td>
+<td>in</td>
+<td align="right">23.833333000000007</td>
+<td align="right">73.0</td>
+<td align="right">66.72</td>
+<td align="right">82</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">3.06</td>
+</tr>
+<tr>
+<td align="right">230</td>
+<td>waw</td>
+<td>sd</td>
+<td align="right">7.700000000000002</td>
+<td align="right">28.0</td>
+<td align="right">75.09</td>
+<td align="right">83</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">36</td>
+<td align="right">6.53</td>
+</tr>
+<tr>
+<td align="right">231</td>
+<td>shivrajpur</td>
+<td>in</td>
+<td align="right">22.416667</td>
+<td align="right">73.65000000000002</td>
+<td align="right">71.13</td>
+<td align="right">94</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">5.19</td>
+</tr>
+<tr>
+<td align="right">232</td>
+<td>villazon</td>
+<td>bo</td>
+<td align="right">-22.1</td>
+<td align="right">-65.6</td>
+<td align="right">54.39</td>
+<td align="right">37</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">44</td>
+<td align="right">8.66</td>
+</tr>
+<tr>
+<td align="right">233</td>
+<td>juba</td>
+<td>sd</td>
+<td align="right">4.85</td>
+<td align="right">31.616666700000003</td>
+<td align="right">80.13</td>
+<td align="right">68</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">92</td>
+<td align="right">4.74</td>
+</tr>
+<tr>
+<td align="right">234</td>
+<td>ventersburg</td>
+<td>za</td>
+<td align="right">-28.085614000000003</td>
+<td align="right">27.138143</td>
+<td align="right">62.04</td>
+<td align="right">45</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">76</td>
+<td align="right">10.67</td>
+</tr>
+<tr>
+<td align="right">235</td>
+<td>pucallpa</td>
+<td>pe</td>
+<td align="right">-8.382500000000002</td>
+<td align="right">-74.5380556</td>
+<td align="right">91.92</td>
+<td align="right">48</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.73</td>
+</tr>
+<tr>
+<td align="right">236</td>
+<td>asau</td>
+<td>tv</td>
+<td align="right">-7.499999999999999</td>
+<td align="right">178.6666667</td>
+<td align="right">84.0</td>
+<td align="right">100</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">24</td>
+<td align="right">6.2</td>
+</tr>
+<tr>
+<td align="right">237</td>
+<td>aberdeen</td>
+<td>us</td>
+<td align="right">45.46472220000001</td>
+<td align="right">-98.4861111</td>
+<td align="right">57.92</td>
+<td align="right">61</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">12.91</td>
+</tr>
+<tr>
+<td align="right">238</td>
+<td>calabozo</td>
+<td>ve</td>
+<td align="right">8.934444400000002</td>
+<td align="right">-67.4266667</td>
+<td align="right">87.33</td>
+<td align="right">68</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">36</td>
+<td align="right">7.31</td>
+</tr>
+<tr>
+<td align="right">239</td>
+<td>inyonga</td>
+<td>tz</td>
+<td align="right">-6.7166667</td>
+<td align="right">32.0666667</td>
+<td align="right">68.34</td>
+<td align="right">42</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">32</td>
+<td align="right">4.97</td>
+</tr>
+<tr>
+<td align="right">240</td>
+<td>morondava</td>
+<td>mg</td>
+<td align="right">-20.283333299999995</td>
+<td align="right">44.283333299999995</td>
+<td align="right">72.84</td>
+<td align="right">100</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">4.85</td>
+</tr>
+<tr>
+<td align="right">241</td>
+<td>oistins</td>
+<td>bb</td>
+<td align="right">13.0666667</td>
+<td align="right">-59.5333333</td>
+<td align="right">84.2</td>
+<td align="right">74</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">19.46</td>
+</tr>
+<tr>
+<td align="right">242</td>
+<td>birao</td>
+<td>cf</td>
+<td align="right">10.283333299999997</td>
+<td align="right">22.7833333</td>
+<td align="right">75.63</td>
+<td align="right">75</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">3.18</td>
+</tr>
+<tr>
+<td align="right">243</td>
+<td>doljo</td>
+<td>ph</td>
+<td align="right">9.589444</td>
+<td align="right">123.72694400000003</td>
+<td align="right">79.32</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">44</td>
+<td align="right">11.68</td>
+</tr>
+<tr>
+<td align="right">244</td>
+<td>agva</td>
+<td>tr</td>
+<td align="right">41.13805600000001</td>
+<td align="right">29.856667</td>
+<td align="right">55.4</td>
+<td align="right">82</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">75</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td align="right">245</td>
+<td>kazalinsk</td>
+<td>kz</td>
+<td align="right">45.762778</td>
+<td align="right">62.1075</td>
+<td align="right">49.08</td>
+<td align="right">63</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">24</td>
+<td align="right">6.08</td>
+</tr>
+<tr>
+<td align="right">246</td>
+<td>payson</td>
+<td>us</td>
+<td align="right">40.0444444</td>
+<td align="right">-111.7313889</td>
+<td align="right">65.32</td>
+<td align="right">5</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">1</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td align="right">247</td>
+<td>itupiranga</td>
+<td>br</td>
+<td align="right">-5.150000000000002</td>
+<td align="right">-49.333333</td>
+<td align="right">96.8</td>
+<td align="right">44</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td align="right">248</td>
+<td>orange cove</td>
+<td>us</td>
+<td align="right">36.6244444</td>
+<td align="right">-119.3127778</td>
+<td align="right">88.09</td>
+<td align="right">19</td>
+<td>Haze</td>
+<td>haze</td>
+<td align="right">1</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td align="right">249</td>
+<td>canutama</td>
+<td>br</td>
+<td align="right">-6.533333000000001</td>
+<td align="right">-64.333333</td>
+<td align="right">90.66</td>
+<td align="right">47</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">36</td>
+<td align="right">3.18</td>
+</tr>
+<tr>
+<td align="right">250</td>
+<td>nagua</td>
+<td>do</td>
+<td align="right">19.3833333</td>
+<td align="right">-69.8333333</td>
+<td align="right">83.52</td>
+<td align="right">88</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">75</td>
+<td align="right">17.22</td>
+</tr>
+<tr>
+<td align="right">251</td>
+<td>shagonar</td>
+<td>ru</td>
+<td align="right">51.533333</td>
+<td align="right">92.8</td>
+<td align="right">36.66</td>
+<td align="right">100</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">36</td>
+<td align="right">2.17</td>
+</tr>
+<tr>
+<td align="right">252</td>
+<td>bolshoy tsaryn</td>
+<td>ru</td>
+<td align="right">47.85194400000002</td>
+<td align="right">45.424167</td>
+<td align="right">59.25</td>
+<td align="right">98</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">100</td>
+<td align="right">10.11</td>
+</tr>
+<tr>
+<td align="right">253</td>
+<td>lorengau</td>
+<td>pg</td>
+<td align="right">-2.0166667</td>
+<td align="right">147.2666667</td>
+<td align="right">82.38</td>
+<td align="right">100</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">6.42</td>
+</tr>
+<tr>
+<td align="right">254</td>
+<td>terra santa</td>
+<td>br</td>
+<td align="right">-2.1000000000000005</td>
+<td align="right">-56.483333</td>
+<td align="right">93.36</td>
+<td align="right">41</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">12</td>
+<td align="right">3.4</td>
+</tr>
+<tr>
+<td align="right">255</td>
+<td>nanma</td>
+<td>cn</td>
+<td align="right">36.181667</td>
+<td align="right">118.158333</td>
+<td align="right">55.2</td>
+<td align="right">90</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">56</td>
+<td align="right">2.73</td>
+</tr>
+<tr>
+<td align="right">256</td>
+<td>yarkovo</td>
+<td>ru</td>
+<td align="right">54.8056</td>
+<td align="right">82.5989</td>
+<td align="right">48.2</td>
+<td align="right">93</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">4.47</td>
+</tr>
+<tr>
+<td align="right">257</td>
+<td>kuala kedah</td>
+<td>my</td>
+<td align="right">6.105146</td>
+<td align="right">100.28520100000001</td>
+<td align="right">78.03</td>
+<td align="right">94</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">75</td>
+<td align="right">5.97</td>
+</tr>
+<tr>
+<td align="right">258</td>
+<td>bandundu</td>
+<td>cd</td>
+<td align="right">-3.316667</td>
+<td align="right">17.366667</td>
+<td align="right">70.5</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">32</td>
+<td align="right">2.17</td>
+</tr>
+<tr>
+<td align="right">259</td>
+<td>warwick</td>
+<td>au</td>
+<td align="right">-28.219009</td>
+<td align="right">152.03437800000003</td>
+<td align="right">51.24</td>
+<td align="right">99</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">92</td>
+<td align="right">7.87</td>
+</tr>
+<tr>
+<td align="right">260</td>
+<td>bal-os</td>
+<td>ph</td>
+<td align="right">9.441599999999998</td>
+<td align="right">122.62570000000001</td>
+<td align="right">74.55</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">92</td>
+<td align="right">5.3</td>
+</tr>
+<tr>
+<td align="right">261</td>
+<td>yar-sale</td>
+<td>ru</td>
+<td align="right">66.83333300000001</td>
+<td align="right">70.833333</td>
+<td align="right">48.18</td>
+<td align="right">99</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">68</td>
+<td align="right">6.42</td>
+</tr>
+<tr>
+<td align="right">262</td>
+<td>verkhneuralsk</td>
+<td>ru</td>
+<td align="right">53.876944</td>
+<td align="right">59.210556000000004</td>
+<td align="right">50.0</td>
+<td align="right">53</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">11.18</td>
+</tr>
+<tr>
+<td align="right">263</td>
+<td>nova era</td>
+<td>br</td>
+<td align="right">-19.750000000000004</td>
+<td align="right">-43.05</td>
+<td align="right">78.06</td>
+<td align="right">36</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">6.98</td>
+</tr>
+<tr>
+<td align="right">264</td>
+<td>yuzhno-yeniseyskiy</td>
+<td>ru</td>
+<td align="right">58.79583299999999</td>
+<td align="right">94.706389</td>
+<td align="right">40.08</td>
+<td align="right">94</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">48</td>
+<td align="right">5.64</td>
+</tr>
+<tr>
+<td align="right">265</td>
+<td>sampit</td>
+<td>id</td>
+<td align="right">-2.533333</td>
+<td align="right">112.95</td>
+<td align="right">73.92</td>
+<td align="right">89</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">12</td>
+<td align="right">3.29</td>
+</tr>
+<tr>
+<td align="right">266</td>
+<td>corner brook</td>
+<td>ca</td>
+<td align="right">48.949999999999996</td>
+<td align="right">-57.933333</td>
+<td align="right">46.4</td>
+<td align="right">45</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">75</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td align="right">267</td>
+<td>gangotri</td>
+<td>in</td>
+<td align="right">30.983332999999995</td>
+<td align="right">78.93333299999999</td>
+<td align="right">13.62</td>
+<td align="right">100</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">1.61</td>
+</tr>
+<tr>
+<td align="right">268</td>
+<td>waycross</td>
+<td>us</td>
+<td align="right">31.2133333</td>
+<td align="right">-82.3541667</td>
+<td align="right">91.18</td>
+<td align="right">48</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td align="right">269</td>
+<td>coburg</td>
+<td>de</td>
+<td align="right">50.25</td>
+<td align="right">10.966667000000001</td>
+<td align="right">34.95</td>
+<td align="right">86</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">3.74</td>
+</tr>
+<tr>
+<td align="right">270</td>
+<td>guabito</td>
+<td>pa</td>
+<td align="right">9.5</td>
+<td align="right">-82.6166667</td>
+<td align="right">76.8</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">76</td>
+<td align="right">3.29</td>
+</tr>
+<tr>
+<td align="right">271</td>
+<td>baglan</td>
+<td>af</td>
+<td align="right">36.130684</td>
+<td align="right">68.708286</td>
+<td align="right">43.05</td>
+<td align="right">81</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">24</td>
+<td align="right">1.83</td>
+</tr>
+<tr>
+<td align="right">272</td>
+<td>pagudpud</td>
+<td>ph</td>
+<td align="right">18.5616</td>
+<td align="right">120.7868</td>
+<td align="right">78.51</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>heavy intensity rain</td>
+<td align="right">56</td>
+<td align="right">9.44</td>
+</tr>
+<tr>
+<td align="right">273</td>
+<td>ceres</td>
+<td>za</td>
+<td align="right">-33.36889200000001</td>
+<td align="right">19.310955000000003</td>
+<td align="right">48.99</td>
+<td align="right">94</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">68</td>
+<td align="right">4.85</td>
+</tr>
+<tr>
+<td align="right">274</td>
+<td>sao geraldo do araguaia</td>
+<td>br</td>
+<td align="right">-6.4</td>
+<td align="right">-48.533333</td>
+<td align="right">78.87</td>
+<td align="right">88</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">8</td>
+<td align="right">5.64</td>
+</tr>
+<tr>
+<td align="right">275</td>
+<td>lebu</td>
+<td>cl</td>
+<td align="right">-37.61666700000001</td>
+<td align="right">-73.65000000000002</td>
+<td align="right">52.23</td>
+<td align="right">100</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">14.47</td>
+</tr>
+<tr>
+<td align="right">276</td>
+<td>katha</td>
+<td>mm</td>
+<td align="right">24.1833333</td>
+<td align="right">96.34999999999998</td>
+<td align="right">73.38</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">92</td>
+<td align="right">1.95</td>
+</tr>
+<tr>
+<td align="right">277</td>
+<td>senanga</td>
+<td>zm</td>
+<td align="right">-16.1166667</td>
+<td align="right">23.2666667</td>
+<td align="right">73.56</td>
+<td align="right">31</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">8.77</td>
+</tr>
+<tr>
+<td align="right">278</td>
+<td>salmas</td>
+<td>ir</td>
+<td align="right">38.1973</td>
+<td align="right">44.76530000000001</td>
+<td align="right">57.2</td>
+<td align="right">62</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td align="right">279</td>
+<td>ciudad dario</td>
+<td>ni</td>
+<td align="right">12.7305556</td>
+<td align="right">-86.12499999999999</td>
+<td align="right">69.8</td>
+<td align="right">94</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">44</td>
+<td align="right">13.13</td>
+</tr>
+<tr>
+<td align="right">280</td>
+<td>charters towers</td>
+<td>au</td>
+<td align="right">-20.076710000000002</td>
+<td align="right">146.263535</td>
+<td align="right">60.69</td>
+<td align="right">87</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">4.85</td>
+</tr>
+<tr>
+<td align="right">281</td>
+<td>georgetown</td>
+<td>sh</td>
+<td align="right">-7.933333300000001</td>
+<td align="right">-14.416666700000002</td>
+<td align="right">75.45</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">92</td>
+<td align="right">16.26</td>
+</tr>
+<tr>
+<td align="right">282</td>
+<td>szabadszallas</td>
+<td>hu</td>
+<td align="right">46.875752</td>
+<td align="right">19.223243999999998</td>
+<td align="right">45.52</td>
+<td align="right">70</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td align="right">283</td>
+<td>tunxi</td>
+<td>cn</td>
+<td align="right">29.711389</td>
+<td align="right">118.31249999999997</td>
+<td align="right">60.42</td>
+<td align="right">81</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">88</td>
+<td align="right">2.84</td>
+</tr>
+<tr>
+<td align="right">284</td>
+<td>saint-nazaire</td>
+<td>fr</td>
+<td align="right">47.27988299999999</td>
+<td align="right">-2.208804</td>
+<td align="right">57.36</td>
+<td align="right">50</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td align="right">285</td>
+<td>khani</td>
+<td>ru</td>
+<td align="right">57.033333000000006</td>
+<td align="right">120.96666700000002</td>
+<td align="right">27.84</td>
+<td align="right">78</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">1.5</td>
+</tr>
+<tr>
+<td align="right">286</td>
+<td>kovylkino</td>
+<td>ru</td>
+<td align="right">54.038764</td>
+<td align="right">43.913855</td>
+<td align="right">43.05</td>
+<td align="right">91</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">11.9</td>
+</tr>
+<tr>
+<td align="right">287</td>
+<td>laguna de perlas</td>
+<td>ni</td>
+<td align="right">12.35</td>
+<td align="right">-83.66666669999998</td>
+<td align="right">80.6</td>
+<td align="right">88</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">75</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td align="right">288</td>
+<td>snyder</td>
+<td>us</td>
+<td align="right">32.7177778</td>
+<td align="right">-100.91722220000001</td>
+<td align="right">87.35</td>
+<td align="right">44</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">1</td>
+<td align="right">10.29</td>
+</tr>
+<tr>
+<td align="right">289</td>
+<td>ferkessedougou</td>
+<td>ci</td>
+<td align="right">9.5928</td>
+<td align="right">-5.1944870000000005</td>
+<td align="right">79.95</td>
+<td align="right">78</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">24</td>
+<td align="right">2.73</td>
+</tr>
+<tr>
+<td align="right">290</td>
+<td>qandahar</td>
+<td>af</td>
+<td align="right">31.613323000000012</td>
+<td align="right">65.710126</td>
+<td align="right">55.11</td>
+<td align="right">49</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">0.94</td>
+</tr>
+<tr>
+<td align="right">291</td>
+<td>bima</td>
+<td>id</td>
+<td align="right">-8.466667</td>
+<td align="right">118.716667</td>
+<td align="right">69.15</td>
+<td align="right">100</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">4.41</td>
+</tr>
+<tr>
+<td align="right">292</td>
+<td>esso</td>
+<td>ru</td>
+<td align="right">55.93333299999999</td>
+<td align="right">158.7</td>
+<td align="right">34.5</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">88</td>
+<td align="right">2.73</td>
+</tr>
+<tr>
+<td align="right">293</td>
+<td>nortelandia</td>
+<td>br</td>
+<td align="right">-14.416666999999997</td>
+<td align="right">-56.8</td>
+<td align="right">85.35</td>
+<td align="right">79</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">36</td>
+<td align="right">3.62</td>
+</tr>
+<tr>
+<td align="right">294</td>
+<td>willowmore</td>
+<td>za</td>
+<td align="right">-33.29264700000002</td>
+<td align="right">23.489537000000006</td>
+<td align="right">59.61</td>
+<td align="right">26</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">15.93</td>
+</tr>
+<tr>
+<td align="right">295</td>
+<td>barentu</td>
+<td>er</td>
+<td align="right">15.1138889</td>
+<td align="right">37.5927778</td>
+<td align="right">66.0</td>
+<td align="right">84</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.73</td>
+</tr>
+<tr>
+<td align="right">296</td>
+<td>herat</td>
+<td>af</td>
+<td align="right">34.34816699999999</td>
+<td align="right">62.199673000000004</td>
+<td align="right">48.36</td>
+<td align="right">65</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">3.4</td>
+</tr>
+<tr>
+<td align="right">297</td>
+<td>karamea</td>
+<td>nz</td>
+<td align="right">-41.250000000000014</td>
+<td align="right">172.116667</td>
+<td align="right">43.5</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">92</td>
+<td align="right">8.32</td>
+</tr>
+<tr>
+<td align="right">298</td>
+<td>beatrice</td>
+<td>us</td>
+<td align="right">40.268055600000004</td>
+<td align="right">-96.7466667</td>
+<td align="right">65.14</td>
+<td align="right">57</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">90</td>
+<td align="right">19.46</td>
+</tr>
+<tr>
+<td align="right">299</td>
+<td>glens falls</td>
+<td>us</td>
+<td align="right">43.3094444</td>
+<td align="right">-73.64444439999998</td>
+<td align="right">57.13</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">90</td>
+<td align="right">4.29</td>
+</tr>
+<tr>
+<td align="right">300</td>
+<td>meilu</td>
+<td>cn</td>
+<td align="right">21.457130000000003</td>
+<td align="right">110.765907</td>
+<td align="right">77.97</td>
+<td align="right">88</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">68</td>
+<td align="right">5.64</td>
+</tr>
+<tr>
+<td align="right">301</td>
+<td>makung</td>
+<td>tw</td>
+<td align="right">23.5666667</td>
+<td align="right">119.5666667</td>
+<td align="right">81.57</td>
+<td align="right">100</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">44</td>
+<td align="right">34.16</td>
+</tr>
+<tr>
+<td align="right">302</td>
+<td>sena madureira</td>
+<td>br</td>
+<td align="right">-9.066667</td>
+<td align="right">-68.666667</td>
+<td align="right">91.2</td>
+<td align="right">49</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">20</td>
+<td align="right">2.62</td>
+</tr>
+<tr>
+<td align="right">303</td>
+<td>finschhafen</td>
+<td>pg</td>
+<td align="right">-6.600000000000001</td>
+<td align="right">147.85</td>
+<td align="right">71.13</td>
+<td align="right">98</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">92</td>
+<td align="right">2.62</td>
+</tr>
+<tr>
+<td align="right">304</td>
+<td>thinadhoo</td>
+<td>mv</td>
+<td align="right">0.5333333000000001</td>
+<td align="right">72.9333333</td>
+<td align="right">83.91</td>
+<td align="right">100</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">92</td>
+<td align="right">17.05</td>
+</tr>
+<tr>
+<td align="right">305</td>
+<td>santa rosa</td>
+<td>bo</td>
+<td align="right">-14.1666667</td>
+<td align="right">-66.8833333</td>
+<td align="right">95.0</td>
+<td align="right">44</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">16.11</td>
+</tr>
+<tr>
+<td align="right">306</td>
+<td>petauke</td>
+<td>zm</td>
+<td align="right">-14.25</td>
+<td align="right">31.333333299999996</td>
+<td align="right">76.26</td>
+<td align="right">30</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">9.89</td>
+</tr>
+<tr>
+<td align="right">307</td>
+<td>pontal do parana</td>
+<td>br</td>
+<td align="right">-25.580000000000002</td>
+<td align="right">-48.354167</td>
+<td align="right">68.7</td>
+<td align="right">97</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">92</td>
+<td align="right">3.51</td>
+</tr>
+<tr>
+<td align="right">308</td>
+<td>shimanovsk</td>
+<td>ru</td>
+<td align="right">52.000000000000014</td>
+<td align="right">127.70000000000003</td>
+<td align="right">30.63</td>
+<td align="right">75</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">3.51</td>
+</tr>
+<tr>
+<td align="right">309</td>
+<td>cockburn harbour</td>
+<td>tc</td>
+<td align="right">21.4833333</td>
+<td align="right">-71.5333333</td>
+<td align="right">82.83</td>
+<td align="right">99</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">48</td>
+<td align="right">19.62</td>
+</tr>
+<tr>
+<td align="right">310</td>
+<td>paducah</td>
+<td>us</td>
+<td align="right">37.08333329999999</td>
+<td align="right">-88.59999999999998</td>
+<td align="right">83.64</td>
+<td align="right">66</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">75</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td align="right">311</td>
+<td>khirkiya</td>
+<td>in</td>
+<td align="right">22.166667</td>
+<td align="right">76.85000000000001</td>
+<td align="right">72.84</td>
+<td align="right">87</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">12</td>
+<td align="right">2.73</td>
+</tr>
+<tr>
+<td align="right">312</td>
+<td>gbarnga</td>
+<td>lr</td>
+<td align="right">6.995555600000001</td>
+<td align="right">-9.472222199999997</td>
+<td align="right">73.56</td>
+<td align="right">99</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">88</td>
+<td align="right">6.08</td>
+</tr>
+<tr>
+<td align="right">313</td>
+<td>vanavara</td>
+<td>ru</td>
+<td align="right">60.34</td>
+<td align="right">102.279722</td>
+<td align="right">45.12</td>
+<td align="right">99</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">80</td>
+<td align="right">4.29</td>
+</tr>
+<tr>
+<td align="right">314</td>
+<td>kinango</td>
+<td>ke</td>
+<td align="right">-4.133333300000001</td>
+<td align="right">39.3166667</td>
+<td align="right">77.0</td>
+<td align="right">88</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td align="right">315</td>
+<td>champua</td>
+<td>in</td>
+<td align="right">22.083333000000003</td>
+<td align="right">85.666667</td>
+<td align="right">71.4</td>
+<td align="right">97</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">12</td>
+<td align="right">2.95</td>
+</tr>
+<tr>
+<td align="right">316</td>
+<td>bandar-e lengeh</td>
+<td>ir</td>
+<td align="right">26.557918</td>
+<td align="right">54.880669</td>
+<td align="right">92.55</td>
+<td align="right">91</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">20.18</td>
+</tr>
+<tr>
+<td align="right">317</td>
+<td>itoigawa</td>
+<td>jp</td>
+<td align="right">37.033333</td>
+<td align="right">137.85</td>
+<td align="right">62.85</td>
+<td align="right">100</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">48</td>
+<td align="right">11.01</td>
+</tr>
+<tr>
+<td align="right">318</td>
+<td>abalak</td>
+<td>ne</td>
+<td align="right">15.4522222</td>
+<td align="right">6.2783333</td>
+<td align="right">84.18</td>
+<td align="right">38</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">36</td>
+<td align="right">4.74</td>
+</tr>
+<tr>
+<td align="right">319</td>
+<td>kodiak</td>
+<td>us</td>
+<td align="right">57.79</td>
+<td align="right">-152.40722219999998</td>
+<td align="right">55.94</td>
+<td align="right">54</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">1</td>
+<td align="right">10.29</td>
+</tr>
+<tr>
+<td align="right">320</td>
+<td>moa</td>
+<td>cu</td>
+<td align="right">20.656944400000004</td>
+<td align="right">-74.9402778</td>
+<td align="right">83.82</td>
+<td align="right">61</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">7.87</td>
+</tr>
+<tr>
+<td align="right">321</td>
+<td>kapustin yar</td>
+<td>ru</td>
+<td align="right">48.581752000000016</td>
+<td align="right">45.744807</td>
+<td align="right">56.55</td>
+<td align="right">85</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">56</td>
+<td align="right">10.0</td>
+</tr>
+<tr>
+<td align="right">322</td>
+<td>esperance</td>
+<td>au</td>
+<td align="right">-33.86013</td>
+<td align="right">121.882591</td>
+<td align="right">50.88</td>
+<td align="right">100</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">80</td>
+<td align="right">3.18</td>
+</tr>
+<tr>
+<td align="right">323</td>
+<td>puerto penasco</td>
+<td>mx</td>
+<td align="right">31.316667</td>
+<td align="right">-113.533333</td>
+<td align="right">89.4</td>
+<td align="right">77</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">10.67</td>
+</tr>
+<tr>
+<td align="right">324</td>
+<td>ningan</td>
+<td>cn</td>
+<td align="right">44.383333</td>
+<td align="right">129.433333</td>
+<td align="right">32.52</td>
+<td align="right">81</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.39</td>
+</tr>
+<tr>
+<td align="right">325</td>
+<td>aksay</td>
+<td>kz</td>
+<td align="right">51.167778</td>
+<td align="right">52.995</td>
+<td align="right">55.2</td>
+<td align="right">62</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">32</td>
+<td align="right">8.55</td>
+</tr>
+<tr>
+<td align="right">326</td>
+<td>kavaratti</td>
+<td>in</td>
+<td align="right">10.566667</td>
+<td align="right">72.616667</td>
+<td align="right">82.38</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">68</td>
+<td align="right">13.35</td>
+</tr>
+<tr>
+<td align="right">327</td>
+<td>hay river</td>
+<td>ca</td>
+<td align="right">60.85</td>
+<td align="right">-115.7</td>
+<td align="right">50.0</td>
+<td align="right">57</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">75</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td align="right">328</td>
+<td>mahadday weyne</td>
+<td>so</td>
+<td align="right">2.9666667000000007</td>
+<td align="right">45.53333330000001</td>
+<td align="right">74.46</td>
+<td align="right">86</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">8.99</td>
+</tr>
+<tr>
+<td align="right">329</td>
+<td>stornoway</td>
+<td>gb</td>
+<td align="right">58.216667</td>
+<td align="right">-6.3666670000000005</td>
+<td align="right">57.2</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">100</td>
+<td align="right">27.51</td>
+</tr>
+<tr>
+<td align="right">330</td>
+<td>almeirim</td>
+<td>br</td>
+<td align="right">-1.533333</td>
+<td align="right">-52.566667</td>
+<td align="right">87.96</td>
+<td align="right">62</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">3.06</td>
+</tr>
+<tr>
+<td align="right">331</td>
+<td>chenghai</td>
+<td>cn</td>
+<td align="right">23.461318999999996</td>
+<td align="right">116.77007099999999</td>
+<td align="right">73.4</td>
+<td align="right">100</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">18.95</td>
+</tr>
+<tr>
+<td align="right">332</td>
+<td>jinji</td>
+<td>cn</td>
+<td align="right">23.228056000000006</td>
+<td align="right">110.82611100000001</td>
+<td align="right">73.56</td>
+<td align="right">95</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">36</td>
+<td align="right">2.84</td>
+</tr>
+<tr>
+<td align="right">333</td>
+<td>oktyabrskoye</td>
+<td>ru</td>
+<td align="right">62.458333</td>
+<td align="right">66.034167</td>
+<td align="right">57.63</td>
+<td align="right">72</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">76</td>
+<td align="right">9.55</td>
+</tr>
+<tr>
+<td align="right">334</td>
+<td>sal rei</td>
+<td>cv</td>
+<td align="right">16.1833333</td>
+<td align="right">-22.916666700000004</td>
+<td align="right">80.6</td>
+<td align="right">74</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td align="right">335</td>
+<td>bow island</td>
+<td>ca</td>
+<td align="right">49.866667</td>
+<td align="right">-111.36666699999999</td>
+<td align="right">59.0</td>
+<td align="right">38</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">13.87</td>
+</tr>
+<tr>
+<td align="right">336</td>
+<td>ilembula</td>
+<td>tz</td>
+<td align="right">-8.900000000000002</td>
+<td align="right">34.5833333</td>
+<td align="right">58.98</td>
+<td align="right">87</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">9.44</td>
+</tr>
+<tr>
+<td align="right">337</td>
+<td>osmena</td>
+<td>ph</td>
+<td align="right">10.520833</td>
+<td align="right">119.925833</td>
+<td align="right">82.74</td>
+<td align="right">100</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">44</td>
+<td align="right">16.37</td>
+</tr>
+<tr>
+<td align="right">338</td>
+<td>mazagao</td>
+<td>br</td>
+<td align="right">-0.11666699999999999</td>
+<td align="right">-51.283333</td>
+<td align="right">89.6</td>
+<td align="right">59</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">13.87</td>
+</tr>
+<tr>
+<td align="right">339</td>
+<td>irbil</td>
+<td>iq</td>
+<td align="right">36.19</td>
+<td align="right">44.008888899999995</td>
+<td align="right">75.2</td>
+<td align="right">14</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td align="right">340</td>
+<td>general roca</td>
+<td>ar</td>
+<td align="right">-39.02797</td>
+<td align="right">-67.57371100000002</td>
+<td align="right">69.8</td>
+<td align="right">21</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td align="right">341</td>
+<td>pachora</td>
+<td>in</td>
+<td align="right">20.666667</td>
+<td align="right">75.35</td>
+<td align="right">72.21</td>
+<td align="right">86</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">76</td>
+<td align="right">3.29</td>
+</tr>
+<tr>
+<td align="right">342</td>
+<td>sao miguel do oeste</td>
+<td>br</td>
+<td align="right">-26.75</td>
+<td align="right">-53.56666700000002</td>
+<td align="right">67.53</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">88</td>
+<td align="right">4.29</td>
+</tr>
+<tr>
+<td align="right">343</td>
+<td>port moresby</td>
+<td>pg</td>
+<td align="right">-9.4647222</td>
+<td align="right">147.1925</td>
+<td align="right">69.8</td>
+<td align="right">94</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">17.05</td>
+</tr>
+<tr>
+<td align="right">344</td>
+<td>betanzos</td>
+<td>es</td>
+<td align="right">43.280418000000004</td>
+<td align="right">-8.214674</td>
+<td align="right">60.8</td>
+<td align="right">67</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td align="right">345</td>
+<td>griffin</td>
+<td>us</td>
+<td align="right">33.2466667</td>
+<td align="right">-84.2641667</td>
+<td align="right">86.2</td>
+<td align="right">45</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td align="right">346</td>
+<td>aksha</td>
+<td>ru</td>
+<td align="right">50.281389</td>
+<td align="right">113.286667</td>
+<td align="right">30.45</td>
+<td align="right">72</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.62</td>
+</tr>
+<tr>
+<td align="right">347</td>
+<td>popondetta</td>
+<td>pg</td>
+<td align="right">-8.7666667</td>
+<td align="right">148.2333333</td>
+<td align="right">67.62</td>
+<td align="right">92</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">24</td>
+<td align="right">1.95</td>
+</tr>
+<tr>
+<td align="right">348</td>
+<td>bo rai</td>
+<td>th</td>
+<td align="right">12.572834</td>
+<td align="right">102.53713900000001</td>
+<td align="right">75.27</td>
+<td align="right">95</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">88</td>
+<td align="right">3.62</td>
+</tr>
+<tr>
+<td align="right">349</td>
+<td>hvammstangi</td>
+<td>is</td>
+<td align="right">65.4</td>
+<td align="right">-20.95</td>
+<td align="right">36.12</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">92</td>
+<td align="right">3.06</td>
+</tr>
+<tr>
+<td align="right">350</td>
+<td>lokot</td>
+<td>ru</td>
+<td align="right">52.565</td>
+<td align="right">34.5776</td>
+<td align="right">44.85</td>
+<td align="right">78</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">92</td>
+<td align="right">11.12</td>
+</tr>
+<tr>
+<td align="right">351</td>
+<td>volda</td>
+<td>no</td>
+<td align="right">62.15</td>
+<td align="right">6.099999999999998</td>
+<td align="right">49.28</td>
+<td align="right">71</td>
+<td>Rain</td>
+<td>light intensity shower rain</td>
+<td align="right">75</td>
+<td align="right">35.57</td>
+</tr>
+<tr>
+<td align="right">352</td>
+<td>linqing</td>
+<td>cn</td>
+<td align="right">36.845555999999995</td>
+<td align="right">115.711667</td>
+<td align="right">56.37</td>
+<td align="right">90</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">80</td>
+<td align="right">2.95</td>
+</tr>
+<tr>
+<td align="right">353</td>
+<td>terney</td>
+<td>ru</td>
+<td align="right">45.050278</td>
+<td align="right">136.609167</td>
+<td align="right">53.22</td>
+<td align="right">100</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">10.11</td>
+</tr>
+<tr>
+<td align="right">354</td>
+<td>bemidji</td>
+<td>us</td>
+<td align="right">47.4736111</td>
+<td align="right">-94.88</td>
+<td align="right">47.75</td>
+<td align="right">75</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">90</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td align="right">355</td>
+<td>dien bien</td>
+<td>vn</td>
+<td align="right">21.383333</td>
+<td align="right">103.016667</td>
+<td align="right">69.06</td>
+<td align="right">93</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">88</td>
+<td align="right">1.61</td>
+</tr>
+<tr>
+<td align="right">356</td>
+<td>nizhneyansk</td>
+<td>ru</td>
+<td align="right">71.43333300000002</td>
+<td align="right">136.06666699999997</td>
+<td align="right">30.0</td>
+<td align="right">91</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">68</td>
+<td align="right">10.78</td>
+</tr>
+<tr>
+<td align="right">357</td>
+<td>yima</td>
+<td>cn</td>
+<td align="right">34.738056</td>
+<td align="right">111.88388899999998</td>
+<td align="right">52.41</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">100</td>
+<td align="right">4.18</td>
+</tr>
+<tr>
+<td align="right">358</td>
+<td>grand-santi</td>
+<td>gf</td>
+<td align="right">4.25</td>
+<td align="right">-54.3833333</td>
+<td align="right">86.34</td>
+<td align="right">69</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">1.95</td>
+</tr>
+<tr>
+<td align="right">359</td>
+<td>yangjiang</td>
+<td>cn</td>
+<td align="right">21.850000000000005</td>
+<td align="right">111.96666699999999</td>
+<td align="right">80.76</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">76</td>
+<td align="right">5.19</td>
+</tr>
+<tr>
+<td align="right">360</td>
+<td>antsohihy</td>
+<td>mg</td>
+<td align="right">-14.8666667</td>
+<td align="right">47.9833333</td>
+<td align="right">75.18</td>
+<td align="right">65</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">11.12</td>
+</tr>
+<tr>
+<td align="right">361</td>
+<td>svay rieng</td>
+<td>kh</td>
+<td align="right">11.0833333</td>
+<td align="right">105.8</td>
+<td align="right">75.63</td>
+<td align="right">97</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">6.42</td>
+</tr>
+<tr>
+<td align="right">362</td>
+<td>junin</td>
+<td>ar</td>
+<td align="right">-34.583816</td>
+<td align="right">-60.943318</td>
+<td align="right">74.19</td>
+<td align="right">43</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">8.32</td>
+</tr>
+<tr>
+<td align="right">363</td>
+<td>kamina</td>
+<td>cd</td>
+<td align="right">-8.738611000000002</td>
+<td align="right">24.990556</td>
+<td align="right">68.43</td>
+<td align="right">78</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.17</td>
+</tr>
+<tr>
+<td align="right">364</td>
+<td>tsnori</td>
+<td>ge</td>
+<td align="right">41.6169444</td>
+<td align="right">45.97194439999999</td>
+<td align="right">69.8</td>
+<td align="right">68</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td align="right">365</td>
+<td>nkawkaw</td>
+<td>gh</td>
+<td align="right">6.550000000000001</td>
+<td align="right">-0.7666667</td>
+<td align="right">71.22</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">92</td>
+<td align="right">3.18</td>
+</tr>
+<tr>
+<td align="right">366</td>
+<td>cunha</td>
+<td>br</td>
+<td align="right">-23.083333000000003</td>
+<td align="right">-44.966666999999994</td>
+<td align="right">84.06</td>
+<td align="right">40</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td align="right">367</td>
+<td>ongandjera</td>
+<td>na</td>
+<td align="right">-17.8833333</td>
+<td align="right">15.066666699999999</td>
+<td align="right">77.16</td>
+<td align="right">18</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">16.04</td>
+</tr>
+<tr>
+<td align="right">368</td>
+<td>labuan</td>
+<td>ph</td>
+<td align="right">7.100747999999999</td>
+<td align="right">121.90238</td>
+<td align="right">76.35</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">32</td>
+<td align="right">6.42</td>
+</tr>
+<tr>
+<td align="right">369</td>
+<td>nome</td>
+<td>us</td>
+<td align="right">64.5011111</td>
+<td align="right">-165.4063889</td>
+<td align="right">46.94</td>
+<td align="right">96</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">75</td>
+<td align="right">3.4</td>
+</tr>
+<tr>
+<td align="right">370</td>
+<td>bassila</td>
+<td>bj</td>
+<td align="right">9.0166667</td>
+<td align="right">1.6666667</td>
+<td align="right">74.46</td>
+<td align="right">94</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">44</td>
+<td align="right">6.2</td>
+</tr>
+<tr>
+<td align="right">371</td>
+<td>bundibugyo</td>
+<td>ug</td>
+<td align="right">0.7413889</td>
+<td align="right">30.041666699999997</td>
+<td align="right">59.25</td>
+<td align="right">95</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">32</td>
+<td align="right">1.5</td>
+</tr>
+<tr>
+<td align="right">372</td>
+<td>merauke</td>
+<td>id</td>
+<td align="right">-8.466667</td>
+<td align="right">140.33333299999998</td>
+<td align="right">74.37</td>
+<td align="right">94</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">15.93</td>
+</tr>
+<tr>
+<td align="right">373</td>
+<td>lososina</td>
+<td>ru</td>
+<td align="right">48.997494999999994</td>
+<td align="right">140.310638</td>
+<td align="right">44.58</td>
+<td align="right">100</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">7.43</td>
+</tr>
+<tr>
+<td align="right">374</td>
+<td>tabukiniberu</td>
+<td>ki</td>
+<td align="right">-1.35</td>
+<td align="right">175.9833333</td>
+<td align="right">82.74</td>
+<td align="right">100</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">32</td>
+<td align="right">7.76</td>
+</tr>
+<tr>
+<td align="right">375</td>
+<td>korem</td>
+<td>et</td>
+<td align="right">12.505833</td>
+<td align="right">39.522778</td>
+<td align="right">53.58</td>
+<td align="right">91</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">1.39</td>
+</tr>
+<tr>
+<td align="right">376</td>
+<td>lingao</td>
+<td>cn</td>
+<td align="right">19.907778000000004</td>
+<td align="right">109.685833</td>
+<td align="right">75.18</td>
+<td align="right">100</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">5.86</td>
+</tr>
+<tr>
+<td align="right">377</td>
+<td>kintampo</td>
+<td>gh</td>
+<td align="right">8.05</td>
+<td align="right">-1.7166667000000002</td>
+<td align="right">71.85</td>
+<td align="right">97</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">76</td>
+<td align="right">5.41</td>
+</tr>
+<tr>
+<td align="right">378</td>
+<td>kisiwani</td>
+<td>tz</td>
+<td align="right">-4.133333300000001</td>
+<td align="right">37.95</td>
+<td align="right">63.93</td>
+<td align="right">92</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">12</td>
+<td align="right">1.83</td>
+</tr>
+<tr>
+<td align="right">379</td>
+<td>multai</td>
+<td>in</td>
+<td align="right">21.766667</td>
+<td align="right">78.25</td>
+<td align="right">69.15</td>
+<td align="right">88</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">4.07</td>
+</tr>
+<tr>
+<td align="right">380</td>
+<td>cap-aux-meules</td>
+<td>ca</td>
+<td align="right">47.383333</td>
+<td align="right">-61.866667000000014</td>
+<td align="right">51.8</td>
+<td align="right">50</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">10.29</td>
+</tr>
+<tr>
+<td align="right">381</td>
+<td>wagar</td>
+<td>sd</td>
+<td align="right">16.152777799999996</td>
+<td align="right">36.2041667</td>
+<td align="right">77.7</td>
+<td align="right">45</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">5.86</td>
+</tr>
+<tr>
+<td align="right">382</td>
+<td>niltepec</td>
+<td>mx</td>
+<td align="right">16.566667</td>
+<td align="right">-94.616667</td>
+<td align="right">82.2</td>
+<td align="right">73</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">44</td>
+<td align="right">10.0</td>
+</tr>
+<tr>
+<td align="right">383</td>
+<td>harper</td>
+<td>lr</td>
+<td align="right">4.375</td>
+<td align="right">-7.716944399999998</td>
+<td align="right">78.42</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">92</td>
+<td align="right">10.78</td>
+</tr>
+<tr>
+<td align="right">384</td>
+<td>hanzhong</td>
+<td>cn</td>
+<td align="right">33.07277800000001</td>
+<td align="right">107.030278</td>
+<td align="right">56.19</td>
+<td align="right">99</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">100</td>
+<td align="right">3.06</td>
+</tr>
+<tr>
+<td align="right">385</td>
+<td>san ramon</td>
+<td>bo</td>
+<td align="right">-14.483333299999998</td>
+<td align="right">-63.150000000000006</td>
+<td align="right">96.87</td>
+<td align="right">29</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">8.43</td>
+</tr>
+<tr>
+<td align="right">386</td>
+<td>karaul</td>
+<td>ru</td>
+<td align="right">70.07666700000001</td>
+<td align="right">83.191389</td>
+<td align="right">32.97</td>
+<td align="right">87</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">64</td>
+<td align="right">10.0</td>
+</tr>
+<tr>
+<td align="right">387</td>
+<td>poindimie</td>
+<td>nc</td>
+<td align="right">-20.933333299999997</td>
+<td align="right">165.3333333</td>
+<td align="right">70.23</td>
+<td align="right">100</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">92</td>
+<td align="right">14.7</td>
+</tr>
+<tr>
+<td align="right">388</td>
+<td>pozoblanco</td>
+<td>es</td>
+<td align="right">38.379061</td>
+<td align="right">-4.848268</td>
+<td align="right">80.6</td>
+<td align="right">44</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">24</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td align="right">389</td>
+<td>bolgar</td>
+<td>ru</td>
+<td align="right">54.949999999999996</td>
+<td align="right">49.06666700000001</td>
+<td align="right">51.8</td>
+<td align="right">93</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">90</td>
+<td align="right">6.71</td>
+</tr>
+<tr>
+<td align="right">390</td>
+<td>kangundo</td>
+<td>ke</td>
+<td align="right">-1.3000000000000003</td>
+<td align="right">37.35</td>
+<td align="right">65.16</td>
+<td align="right">63</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td align="right">391</td>
+<td>nanchang</td>
+<td>cn</td>
+<td align="right">28.55</td>
+<td align="right">115.933333</td>
+<td align="right">69.96</td>
+<td align="right">71</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">92</td>
+<td align="right">10.22</td>
+</tr>
+<tr>
+<td align="right">392</td>
+<td>buritis</td>
+<td>br</td>
+<td align="right">-15.616667</td>
+<td align="right">-46.433333</td>
+<td align="right">86.97</td>
+<td align="right">22</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">6.98</td>
+</tr>
+<tr>
+<td align="right">393</td>
+<td>abha</td>
+<td>sa</td>
+<td align="right">18.216389000000003</td>
+<td align="right">42.50527799999998</td>
+<td align="right">71.6</td>
+<td align="right">53</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td align="right">394</td>
+<td>huejuquilla el alto</td>
+<td>mx</td>
+<td align="right">22.6</td>
+<td align="right">-103.866667</td>
+<td align="right">76.53</td>
+<td align="right">51</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">2.39</td>
+</tr>
+<tr>
+<td align="right">395</td>
+<td>fowa</td>
+<td>eg</td>
+<td align="right">31.202499999999993</td>
+<td align="right">30.5472222</td>
+<td align="right">78.8</td>
+<td align="right">69</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td align="right">396</td>
+<td>payyannur</td>
+<td>in</td>
+<td align="right">12.100000000000001</td>
+<td align="right">75.2</td>
+<td align="right">80.94</td>
+<td align="right">99</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">76</td>
+<td align="right">13.24</td>
+</tr>
+<tr>
+<td align="right">397</td>
+<td>guozhen</td>
+<td>cn</td>
+<td align="right">34.365907</td>
+<td align="right">107.359045</td>
+<td align="right">48.45</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">92</td>
+<td align="right">2.39</td>
+</tr>
+<tr>
+<td align="right">398</td>
+<td>berbera</td>
+<td>so</td>
+<td align="right">10.4355556</td>
+<td align="right">45.0163889</td>
+<td align="right">64.02</td>
+<td align="right">60</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.95</td>
+</tr>
+<tr>
+<td align="right">399</td>
+<td>ada</td>
+<td>us</td>
+<td align="right">34.77444440000001</td>
+<td align="right">-96.6780556</td>
+<td align="right">87.76</td>
+<td align="right">45</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td align="right">400</td>
+<td>linares</td>
+<td>mx</td>
+<td align="right">24.857778</td>
+<td align="right">-99.567778</td>
+<td align="right">85.17</td>
+<td align="right">62</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">8</td>
+<td align="right">7.31</td>
+</tr>
+<tr>
+<td align="right">401</td>
+<td>yakeshi</td>
+<td>cn</td>
+<td align="right">49.283333000000006</td>
+<td align="right">120.73333299999999</td>
+<td align="right">29.64</td>
+<td align="right">74</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">4.63</td>
+</tr>
+<tr>
+<td align="right">402</td>
+<td>annau</td>
+<td>tm</td>
+<td align="right">37.888333300000006</td>
+<td align="right">58.5280556</td>
+<td align="right">71.6</td>
+<td align="right">33</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td align="right">403</td>
+<td>jingdezhen</td>
+<td>cn</td>
+<td align="right">29.29469999999999</td>
+<td align="right">117.207887</td>
+<td align="right">67.35</td>
+<td align="right">70</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">88</td>
+<td align="right">8.43</td>
+</tr>
+<tr>
+<td align="right">404</td>
+<td>chiscas</td>
+<td>co</td>
+<td align="right">6.552358000000002</td>
+<td align="right">-72.499761</td>
+<td align="right">63.48</td>
+<td align="right">52</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">48</td>
+<td align="right">1.05</td>
+</tr>
+<tr>
+<td align="right">405</td>
+<td>lhokseumawe</td>
+<td>id</td>
+<td align="right">5.180100000000002</td>
+<td align="right">97.1507</td>
+<td align="right">79.68</td>
+<td align="right">100</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">44</td>
+<td align="right">5.19</td>
+</tr>
+<tr>
+<td align="right">406</td>
+<td>khovu-aksy</td>
+<td>ru</td>
+<td align="right">51.133333</td>
+<td align="right">93.59999999999998</td>
+<td align="right">33.33</td>
+<td align="right">94</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">56</td>
+<td align="right">2.73</td>
+</tr>
+<tr>
+<td align="right">407</td>
+<td>theog</td>
+<td>in</td>
+<td align="right">31.116667</td>
+<td align="right">77.35</td>
+<td align="right">49.98</td>
+<td align="right">83</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">36</td>
+<td align="right">2.95</td>
+</tr>
+<tr>
+<td align="right">408</td>
+<td>mancio lima</td>
+<td>br</td>
+<td align="right">-7.616667</td>
+<td align="right">-72.9</td>
+<td align="right">78.8</td>
+<td align="right">83</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td align="right">409</td>
+<td>tall kayf</td>
+<td>iq</td>
+<td align="right">36.489444400000004</td>
+<td align="right">43.1191667</td>
+<td align="right">63.03</td>
+<td align="right">60</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.95</td>
+</tr>
+<tr>
+<td align="right">410</td>
+<td>sur</td>
+<td>om</td>
+<td align="right">22.5666667</td>
+<td align="right">59.5288889</td>
+<td align="right">86.43</td>
+<td align="right">82</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">4.74</td>
+</tr>
+<tr>
+<td align="right">411</td>
+<td>sumbawanga</td>
+<td>tz</td>
+<td align="right">-7.966666700000003</td>
+<td align="right">31.616666700000003</td>
+<td align="right">70.68</td>
+<td align="right">69</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">7.54</td>
+</tr>
+<tr>
+<td align="right">412</td>
+<td>tevriz</td>
+<td>ru</td>
+<td align="right">57.509000000000015</td>
+<td align="right">72.4042</td>
+<td align="right">50.16</td>
+<td align="right">94</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">3.96</td>
+</tr>
+<tr>
+<td align="right">413</td>
+<td>ola</td>
+<td>ru</td>
+<td align="right">59.58333300000001</td>
+<td align="right">151.283333</td>
+<td align="right">24.8</td>
+<td align="right">100</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">4.63</td>
+</tr>
+<tr>
+<td align="right">414</td>
+<td>mozarlandia</td>
+<td>br</td>
+<td align="right">-14.783333000000002</td>
+<td align="right">-50.583333</td>
+<td align="right">91.47</td>
+<td align="right">33</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">32</td>
+<td align="right">4.85</td>
+</tr>
+<tr>
+<td align="right">415</td>
+<td>las palmas</td>
+<td>es</td>
+<td align="right">28.099727</td>
+<td align="right">-15.41343</td>
+<td align="right">73.4</td>
+<td align="right">94</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">13.87</td>
+</tr>
+<tr>
+<td align="right">416</td>
+<td>anadyr</td>
+<td>ru</td>
+<td align="right">64.74999999999999</td>
+<td align="right">177.483333</td>
+<td align="right">42.8</td>
+<td align="right">100</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">75</td>
+<td align="right">4.47</td>
+</tr>
+<tr>
+<td align="right">417</td>
+<td>florencia</td>
+<td>co</td>
+<td align="right">1.6143819999999998</td>
+<td align="right">-75.606229</td>
+<td align="right">77.43</td>
+<td align="right">65</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">1.95</td>
+</tr>
+<tr>
+<td align="right">418</td>
+<td>nagycserkesz</td>
+<td>hu</td>
+<td align="right">47.96666700000001</td>
+<td align="right">21.533333</td>
+<td align="right">42.69</td>
+<td align="right">69</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">6.87</td>
+</tr>
+<tr>
+<td align="right">419</td>
+<td>nazare da mata</td>
+<td>br</td>
+<td align="right">-7.733333</td>
+<td align="right">-35.233333</td>
+<td align="right">78.8</td>
+<td align="right">74</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">10.29</td>
+</tr>
+<tr>
+<td align="right">420</td>
+<td>benjamin hill</td>
+<td>mx</td>
+<td align="right">30.16666700000001</td>
+<td align="right">-111.1</td>
+<td align="right">90.12</td>
+<td align="right">29</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">6.64</td>
+</tr>
+<tr>
+<td align="right">421</td>
+<td>lima</td>
+<td>pe</td>
+<td align="right">-12.05</td>
+<td align="right">-77.05000000000001</td>
+<td align="right">68.43</td>
+<td align="right">61</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.73</td>
+</tr>
+<tr>
+<td align="right">422</td>
+<td>cotonou</td>
+<td>bj</td>
+<td align="right">6.35</td>
+<td align="right">2.4333332999999997</td>
+<td align="right">78.15</td>
+<td align="right">91</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">92</td>
+<td align="right">4.29</td>
+</tr>
+<tr>
+<td align="right">423</td>
+<td>belaya gora</td>
+<td>ru</td>
+<td align="right">68.533333</td>
+<td align="right">146.416667</td>
+<td align="right">31.17</td>
+<td align="right">91</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">92</td>
+<td align="right">5.19</td>
+</tr>
+<tr>
+<td align="right">424</td>
+<td>chake chake</td>
+<td>tz</td>
+<td align="right">-5.25</td>
+<td align="right">39.766666699999995</td>
+<td align="right">78.33</td>
+<td align="right">97</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">56</td>
+<td align="right">11.79</td>
+</tr>
+<tr>
+<td align="right">425</td>
+<td>butterworth</td>
+<td>za</td>
+<td align="right">-32.330833</td>
+<td align="right">28.149807999999997</td>
+<td align="right">71.4</td>
+<td align="right">58</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">68</td>
+<td align="right">3.74</td>
+</tr>
+<tr>
+<td align="right">426</td>
+<td>taywarah</td>
+<td>af</td>
+<td align="right">33.521176</td>
+<td align="right">64.421156</td>
+<td align="right">32.34</td>
+<td align="right">65</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">2.17</td>
+</tr>
+<tr>
+<td align="right">427</td>
+<td>roros</td>
+<td>no</td>
+<td align="right">62.583333</td>
+<td align="right">11.4</td>
+<td align="right">42.8</td>
+<td align="right">81</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">92</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td align="right">428</td>
+<td>mariental</td>
+<td>na</td>
+<td align="right">-24.6333333</td>
+<td align="right">17.9666667</td>
+<td align="right">75.2</td>
+<td align="right">11</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td align="right">429</td>
+<td>contamana</td>
+<td>pe</td>
+<td align="right">-7.3333333000000005</td>
+<td align="right">-75.0166667</td>
+<td align="right">93.54</td>
+<td align="right">42</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">24</td>
+<td align="right">2.62</td>
+</tr>
+<tr>
+<td align="right">430</td>
+<td>flic en flac</td>
+<td>mu</td>
+<td align="right">-20.2741667</td>
+<td align="right">57.3630556</td>
+<td align="right">71.6</td>
+<td align="right">73</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td align="right">431</td>
+<td>pasighat</td>
+<td>in</td>
+<td align="right">28.066667</td>
+<td align="right">95.333333</td>
+<td align="right">67.35</td>
+<td align="right">98</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">92</td>
+<td align="right">1.61</td>
+</tr>
+<tr>
+<td align="right">432</td>
+<td>grieskirchen</td>
+<td>at</td>
+<td align="right">48.233333</td>
+<td align="right">13.833333</td>
+<td align="right">44.6</td>
+<td align="right">65</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td align="right">433</td>
+<td>jackson</td>
+<td>us</td>
+<td align="right">43.480000000000004</td>
+<td align="right">-110.7616667</td>
+<td align="right">55.53</td>
+<td align="right">8</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">1</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td align="right">434</td>
+<td>tefe</td>
+<td>br</td>
+<td align="right">-3.366667</td>
+<td align="right">-64.7</td>
+<td align="right">82.4</td>
+<td align="right">83</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td align="right">435</td>
+<td>bassar</td>
+<td>tg</td>
+<td align="right">9.25</td>
+<td align="right">0.7833333</td>
+<td align="right">73.74</td>
+<td align="right">91</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">12</td>
+<td align="right">2.51</td>
+</tr>
+<tr>
+<td align="right">436</td>
+<td>priboj</td>
+<td>rs</td>
+<td align="right">43.58361099999999</td>
+<td align="right">19.525833000000002</td>
+<td align="right">41.0</td>
+<td align="right">70</td>
+<td>Rain</td>
+<td>light intensity shower rain</td>
+<td align="right">92</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td align="right">437</td>
+<td>jorpeland</td>
+<td>no</td>
+<td align="right">59.016667</td>
+<td align="right">6.050000000000001</td>
+<td align="right">52.63</td>
+<td align="right">71</td>
+<td>Drizzle</td>
+<td>drizzle rain</td>
+<td align="right">75</td>
+<td align="right">19.46</td>
+</tr>
+<tr>
+<td align="right">438</td>
+<td>bend</td>
+<td>us</td>
+<td align="right">44.0583333</td>
+<td align="right">-121.3141667</td>
+<td align="right">68.59</td>
+<td align="right">19</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">1</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td align="right">439</td>
+<td>baft</td>
+<td>ir</td>
+<td align="right">29.2331</td>
+<td align="right">56.6022</td>
+<td align="right">42.69</td>
+<td align="right">42</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">12</td>
+<td align="right">3.18</td>
+</tr>
+<tr>
+<td align="right">440</td>
+<td>minervino murge</td>
+<td>it</td>
+<td align="right">41.083333</td>
+<td align="right">16.083332999999996</td>
+<td align="right">64.4</td>
+<td align="right">34</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">16.11</td>
+</tr>
+<tr>
+<td align="right">441</td>
+<td>karaton</td>
+<td>kz</td>
+<td align="right">46.435278000000004</td>
+<td align="right">53.486389</td>
+<td align="right">59.61</td>
+<td align="right">58</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">5.97</td>
+</tr>
+<tr>
+<td align="right">442</td>
+<td>alpen</td>
+<td>de</td>
+<td align="right">51.583333</td>
+<td align="right">6.516667</td>
+<td align="right">45.18</td>
+<td align="right">87</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td align="right">443</td>
+<td>bintulu</td>
+<td>my</td>
+<td align="right">3.166667</td>
+<td align="right">113.033333</td>
+<td align="right">75.2</td>
+<td align="right">94</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">75</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td align="right">444</td>
+<td>maine-soroa</td>
+<td>ne</td>
+<td align="right">13.2177778</td>
+<td align="right">12.0266667</td>
+<td align="right">80.31</td>
+<td align="right">58</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">3.06</td>
+</tr>
+<tr>
+<td align="right">445</td>
+<td>igarka</td>
+<td>ru</td>
+<td align="right">67.46550000000002</td>
+<td align="right">86.6027</td>
+<td align="right">28.65</td>
+<td align="right">89</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">3.18</td>
+</tr>
+<tr>
+<td align="right">446</td>
+<td>sabibah</td>
+<td>tn</td>
+<td align="right">35.543318000000006</td>
+<td align="right">9.073696</td>
+<td align="right">59.88</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">64</td>
+<td align="right">2.51</td>
+</tr>
+<tr>
+<td align="right">447</td>
+<td>katobu</td>
+<td>id</td>
+<td align="right">-4.9186000000000005</td>
+<td align="right">122.52180000000001</td>
+<td align="right">76.35</td>
+<td align="right">100</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">4.85</td>
+</tr>
+<tr>
+<td align="right">448</td>
+<td>liwale</td>
+<td>tz</td>
+<td align="right">-9.7666667</td>
+<td align="right">37.93333330000001</td>
+<td align="right">77.07</td>
+<td align="right">58</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">76</td>
+<td align="right">5.97</td>
+</tr>
+<tr>
+<td align="right">449</td>
+<td>marv dasht</td>
+<td>ir</td>
+<td align="right">29.874200000000005</td>
+<td align="right">52.8025</td>
+<td align="right">75.2</td>
+<td align="right">11</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td align="right">450</td>
+<td>lakatoro</td>
+<td>vu</td>
+<td align="right">-16.1166667</td>
+<td align="right">167.4166667</td>
+<td align="right">76.08</td>
+<td align="right">96</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">88</td>
+<td align="right">12.35</td>
+</tr>
+<tr>
+<td align="right">451</td>
+<td>ushuaia</td>
+<td>ar</td>
+<td align="right">-54.800000000000004</td>
+<td align="right">-68.3</td>
+<td align="right">41.81</td>
+<td align="right">60</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">75</td>
+<td align="right">13.87</td>
+</tr>
+<tr>
+<td align="right">452</td>
+<td>fukue</td>
+<td>jp</td>
+<td align="right">32.688056</td>
+<td align="right">128.841944</td>
+<td align="right">75.81</td>
+<td align="right">100</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">76</td>
+<td align="right">20.29</td>
+</tr>
+<tr>
+<td align="right">453</td>
+<td>young</td>
+<td>au</td>
+<td align="right">-34.313499</td>
+<td align="right">148.301071</td>
+<td align="right">48.81</td>
+<td align="right">97</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">92</td>
+<td align="right">5.08</td>
+</tr>
+<tr>
+<td align="right">454</td>
+<td>taganak</td>
+<td>ph</td>
+<td align="right">6.0833330000000005</td>
+<td align="right">118.3</td>
+<td align="right">80.6</td>
+<td align="right">88</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">75</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td align="right">455</td>
+<td>komatipoort</td>
+<td>za</td>
+<td align="right">-25.433205000000008</td>
+<td align="right">31.954776999999996</td>
+<td align="right">72.84</td>
+<td align="right">47</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">9.1</td>
+</tr>
+<tr>
+<td align="right">456</td>
+<td>alotau</td>
+<td>pg</td>
+<td align="right">-10.300000000000002</td>
+<td align="right">150.41666670000004</td>
+<td align="right">76.62</td>
+<td align="right">99</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">68</td>
+<td align="right">16.15</td>
+</tr>
+<tr>
+<td align="right">457</td>
+<td>mpophomeni</td>
+<td>za</td>
+<td align="right">-29.568219</td>
+<td align="right">30.186182</td>
+<td align="right">59.79</td>
+<td align="right">39</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">5.64</td>
+</tr>
+<tr>
+<td align="right">458</td>
+<td>jiupu</td>
+<td>cn</td>
+<td align="right">41.066667</td>
+<td align="right">122.95000000000002</td>
+<td align="right">37.47</td>
+<td align="right">79</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.62</td>
+</tr>
+<tr>
+<td align="right">459</td>
+<td>moranbah</td>
+<td>au</td>
+<td align="right">-21.99828</td>
+<td align="right">148.034836</td>
+<td align="right">59.25</td>
+<td align="right">88</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">8.77</td>
+</tr>
+<tr>
+<td align="right">460</td>
+<td>paratinga</td>
+<td>br</td>
+<td align="right">-12.7</td>
+<td align="right">-43.16666699999999</td>
+<td align="right">96.8</td>
+<td align="right">20</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">4.85</td>
+</tr>
+<tr>
+<td align="right">461</td>
+<td>le port</td>
+<td>re</td>
+<td align="right">-20.916666700000004</td>
+<td align="right">55.3</td>
+<td align="right">71.47</td>
+<td align="right">73</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">90</td>
+<td align="right">14.99</td>
+</tr>
+<tr>
+<td align="right">462</td>
+<td>sunamganj</td>
+<td>bd</td>
+<td align="right">25.0666667</td>
+<td align="right">91.4</td>
+<td align="right">71.22</td>
+<td align="right">99</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">100</td>
+<td align="right">2.73</td>
+</tr>
+<tr>
+<td align="right">463</td>
+<td>chitrakonda</td>
+<td>in</td>
+<td align="right">18.116667000000003</td>
+<td align="right">82.083333</td>
+<td align="right">69.78</td>
+<td align="right">96</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">48</td>
+<td align="right">1.16</td>
+</tr>
+<tr>
+<td align="right">464</td>
+<td>savannakhet</td>
+<td>la</td>
+<td align="right">16.55</td>
+<td align="right">104.75</td>
+<td align="right">73.65</td>
+<td align="right">96</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">20</td>
+<td align="right">3.51</td>
+</tr>
+<tr>
+<td align="right">465</td>
+<td>frutal</td>
+<td>br</td>
+<td align="right">-20.033333</td>
+<td align="right">-48.916667</td>
+<td align="right">91.56</td>
+<td align="right">30</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">36</td>
+<td align="right">2.73</td>
+</tr>
+<tr>
+<td align="right">466</td>
+<td>presidente olegario</td>
+<td>br</td>
+<td align="right">-18.416667</td>
+<td align="right">-46.416667</td>
+<td align="right">81.93</td>
+<td align="right">34</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">6.76</td>
+</tr>
+<tr>
+<td align="right">467</td>
+<td>plateros</td>
+<td>mx</td>
+<td align="right">23.216667</td>
+<td align="right">-102.85</td>
+<td align="right">73.4</td>
+<td align="right">46</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td align="right">468</td>
+<td>kihei</td>
+<td>us</td>
+<td align="right">20.785</td>
+<td align="right">-156.4655556</td>
+<td align="right">85.23</td>
+<td align="right">59</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td align="right">469</td>
+<td>wanxian</td>
+<td>cn</td>
+<td align="right">30.803889</td>
+<td align="right">108.38972200000002</td>
+<td align="right">60.33</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">100</td>
+<td align="right">2.51</td>
+</tr>
+<tr>
+<td align="right">470</td>
+<td>vredendal</td>
+<td>za</td>
+<td align="right">-31.668328999999996</td>
+<td align="right">18.501192</td>
+<td align="right">54.93</td>
+<td align="right">84</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">88</td>
+<td align="right">6.76</td>
+</tr>
+<tr>
+<td align="right">471</td>
+<td>taybad</td>
+<td>ir</td>
+<td align="right">34.74</td>
+<td align="right">60.775600000000004</td>
+<td align="right">57.0</td>
+<td align="right">50</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">6.98</td>
+</tr>
+<tr>
+<td align="right">472</td>
+<td>ballitoville</td>
+<td>za</td>
+<td align="right">-29.538969</td>
+<td align="right">31.214385999999998</td>
+<td align="right">71.67</td>
+<td align="right">56</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">24</td>
+<td align="right">7.2</td>
+</tr>
+<tr>
+<td align="right">473</td>
+<td>san luis</td>
+<td>mx</td>
+<td align="right">28.400000000000002</td>
+<td align="right">-113.666667</td>
+<td align="right">93.45</td>
+<td align="right">20</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">6.64</td>
+</tr>
+<tr>
+<td align="right">474</td>
+<td>ketchikan</td>
+<td>us</td>
+<td align="right">55.34222220000001</td>
+<td align="right">-131.6461111</td>
+<td align="right">55.15</td>
+<td align="right">93</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">90</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td align="right">475</td>
+<td>prattville</td>
+<td>us</td>
+<td align="right">32.46388890000001</td>
+<td align="right">-86.4597222</td>
+<td align="right">88.86</td>
+<td align="right">73</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td align="right">476</td>
+<td>teruel</td>
+<td>es</td>
+<td align="right">40.345073000000006</td>
+<td align="right">-1.1041059999999998</td>
+<td align="right">66.2</td>
+<td align="right">72</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">48</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td align="right">477</td>
+<td>severo-yeniseyskiy</td>
+<td>ru</td>
+<td align="right">60.372499999999995</td>
+<td align="right">93.040833</td>
+<td align="right">40.35</td>
+<td align="right">94</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">92</td>
+<td align="right">6.64</td>
+</tr>
+<tr>
+<td align="right">478</td>
+<td>kenai</td>
+<td>us</td>
+<td align="right">60.554444399999994</td>
+<td align="right">-151.2583333</td>
+<td align="right">53.96</td>
+<td align="right">66</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">1</td>
+<td align="right">21.92</td>
+</tr>
+<tr>
+<td align="right">479</td>
+<td>vuktyl</td>
+<td>ru</td>
+<td align="right">63.856667</td>
+<td align="right">57.309444</td>
+<td align="right">50.16</td>
+<td align="right">98</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">92</td>
+<td align="right">8.55</td>
+</tr>
+<tr>
+<td align="right">480</td>
+<td>pudem</td>
+<td>ru</td>
+<td align="right">58.30439900000002</td>
+<td align="right">52.167539</td>
+<td align="right">52.68</td>
+<td align="right">96</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">92</td>
+<td align="right">18.5</td>
+</tr>
+<tr>
+<td align="right">481</td>
+<td>marrakesh</td>
+<td>ma</td>
+<td align="right">31.631485000000005</td>
+<td align="right">-8.008281</td>
+<td align="right">78.8</td>
+<td align="right">54</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td align="right">482</td>
+<td>scarborough</td>
+<td>tt</td>
+<td align="right">11.183333299999997</td>
+<td align="right">-60.73333329999999</td>
+<td align="right">77.0</td>
+<td align="right">83</td>
+<td>Rain</td>
+<td>shower rain</td>
+<td align="right">20</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td align="right">483</td>
+<td>santa rosa</td>
+<td>bo</td>
+<td align="right">-16.7833333</td>
+<td align="right">-61.8</td>
+<td align="right">94.08</td>
+<td align="right">38</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">12</td>
+<td align="right">8.66</td>
+</tr>
+<tr>
+<td align="right">484</td>
+<td>bako</td>
+<td>et</td>
+<td align="right">5.783333000000001</td>
+<td align="right">36.566666999999995</td>
+<td align="right">58.53</td>
+<td align="right">90</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">12</td>
+<td align="right">1.72</td>
+</tr>
+<tr>
+<td align="right">485</td>
+<td>zhifang</td>
+<td>cn</td>
+<td align="right">30.35</td>
+<td align="right">114.316667</td>
+<td align="right">64.4</td>
+<td align="right">88</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">40</td>
+<td align="right">8.95</td>
+</tr>
+<tr>
+<td align="right">486</td>
+<td>taoudenni</td>
+<td>ml</td>
+<td align="right">22.666666699999997</td>
+<td align="right">-3.9833332999999995</td>
+<td align="right">83.46</td>
+<td align="right">22</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">24</td>
+<td align="right">5.97</td>
+</tr>
+<tr>
+<td align="right">487</td>
+<td>yuancheng</td>
+<td>cn</td>
+<td align="right">23.733333</td>
+<td align="right">114.683333</td>
+<td align="right">70.59</td>
+<td align="right">100</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.95</td>
+</tr>
+<tr>
+<td align="right">488</td>
+<td>garissa</td>
+<td>ke</td>
+<td align="right">-0.4569444</td>
+<td align="right">39.6583333</td>
+<td align="right">74.46</td>
+<td align="right">77</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">10.22</td>
+</tr>
+<tr>
+<td align="right">489</td>
+<td>ottumwa</td>
+<td>us</td>
+<td align="right">41.0041667</td>
+<td align="right">-92.37361110000002</td>
+<td align="right">67.95</td>
+<td align="right">83</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">75</td>
+<td align="right">12.75</td>
+</tr>
+<tr>
+<td align="right">490</td>
+<td>estevan</td>
+<td>ca</td>
+<td align="right">49.150000000000006</td>
+<td align="right">-103.0</td>
+<td align="right">51.8</td>
+<td align="right">57</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">75</td>
+<td align="right">25.28</td>
+</tr>
+<tr>
+<td align="right">491</td>
+<td>panguipulli</td>
+<td>cl</td>
+<td align="right">-39.633333</td>
+<td align="right">-72.33333299999998</td>
+<td align="right">55.4</td>
+<td align="right">58</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td align="right">492</td>
+<td>tongchuan</td>
+<td>cn</td>
+<td align="right">34.89879899999999</td>
+<td align="right">108.95056200000002</td>
+<td align="right">57.2</td>
+<td align="right">93</td>
+<td>Mist</td>
+<td>mist</td>
+<td align="right">90</td>
+<td align="right">8.95</td>
+</tr>
+<tr>
+<td align="right">493</td>
+<td>debre tabor</td>
+<td>et</td>
+<td align="right">11.85</td>
+<td align="right">38.016667</td>
+<td align="right">56.46</td>
+<td align="right">81</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">2.28</td>
+</tr>
+<tr>
+<td align="right">494</td>
+<td>barkhan</td>
+<td>pk</td>
+<td align="right">29.89769600000001</td>
+<td align="right">69.52554999999998</td>
+<td align="right">61.23</td>
+<td align="right">69</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">3.74</td>
+</tr>
+<tr>
+<td align="right">495</td>
+<td>mandiana</td>
+<td>gn</td>
+<td align="right">10.6333333</td>
+<td align="right">-8.6833333</td>
+<td align="right">70.95</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">36</td>
+<td align="right">5.75</td>
+</tr>
+<tr>
+<td align="right">496</td>
+<td>gongzhuling</td>
+<td>cn</td>
+<td align="right">43.50722200000001</td>
+<td align="right">124.812222</td>
+<td align="right">38.1</td>
+<td align="right">81</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.73</td>
+</tr>
+<tr>
+<td align="right">497</td>
+<td>cetraro</td>
+<td>it</td>
+<td align="right">39.516667</td>
+<td align="right">15.933333</td>
+<td align="right">50.43</td>
+<td align="right">68</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">5.19</td>
+</tr>
+<tr>
+<td align="right">498</td>
+<td>nayoro</td>
+<td>jp</td>
+<td align="right">44.35055599999998</td>
+<td align="right">142.457778</td>
+<td align="right">45.12</td>
+<td align="right">92</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">64</td>
+<td align="right">2.28</td>
+</tr>
+<tr>
+<td align="right">499</td>
+<td>kainantu</td>
+<td>pg</td>
+<td align="right">-6.2833333</td>
+<td align="right">145.8666667</td>
+<td align="right">61.95</td>
+<td align="right">97</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">64</td>
+<td align="right">1.72</td>
+</tr>
+<tr>
+<td align="right">500</td>
+<td>cheney</td>
+<td>us</td>
+<td align="right">47.48749999999998</td>
+<td align="right">-117.5747222</td>
+<td align="right">65.7</td>
+<td align="right">27</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">1</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td align="right">501</td>
+<td>hidalgo</td>
+<td>mx</td>
+<td align="right">25.8425</td>
+<td align="right">-99.616111</td>
+<td align="right">85.89</td>
+<td align="right">55</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td align="right">502</td>
+<td>wau</td>
+<td>pg</td>
+<td align="right">-7.3333333</td>
+<td align="right">146.7166667</td>
+<td align="right">68.16</td>
+<td align="right">100</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">0.94</td>
+</tr>
+<tr>
+<td align="right">503</td>
+<td>melo</td>
+<td>uy</td>
+<td align="right">-32.36666670000002</td>
+<td align="right">-54.1833333</td>
+<td align="right">61.32</td>
+<td align="right">95</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">92</td>
+<td align="right">13.69</td>
+</tr>
+<tr>
+<td align="right">504</td>
+<td>mazatlan</td>
+<td>mx</td>
+<td align="right">23.216667</td>
+<td align="right">-106.41666699999999</td>
+<td align="right">89.6</td>
+<td align="right">70</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">75</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td align="right">505</td>
+<td>nangomba</td>
+<td>tz</td>
+<td align="right">-10.9</td>
+<td align="right">38.50000000000001</td>
+<td align="right">77.25</td>
+<td align="right">64</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">9.33</td>
+</tr>
+<tr>
+<td align="right">506</td>
+<td>deputatskiy</td>
+<td>ru</td>
+<td align="right">69.29999999999998</td>
+<td align="right">139.9</td>
+<td align="right">27.21</td>
+<td align="right">95</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">64</td>
+<td align="right">4.41</td>
+</tr>
+<tr>
+<td align="right">507</td>
+<td>bria</td>
+<td>cf</td>
+<td align="right">6.533333300000001</td>
+<td align="right">21.98333330000001</td>
+<td align="right">69.78</td>
+<td align="right">89</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">56</td>
+<td align="right">3.62</td>
+</tr>
+<tr>
+<td align="right">508</td>
+<td>porto murtinho</td>
+<td>br</td>
+<td align="right">-21.700000000000006</td>
+<td align="right">-57.866667</td>
+<td align="right">88.41</td>
+<td align="right">64</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">32</td>
+<td align="right">5.41</td>
+</tr>
+<tr>
+<td align="right">509</td>
+<td>nyagan</td>
+<td>ru</td>
+<td align="right">62.14055600000002</td>
+<td align="right">65.393611</td>
+<td align="right">58.62</td>
+<td align="right">70</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">68</td>
+<td align="right">8.66</td>
+</tr>
+<tr>
+<td align="right">510</td>
+<td>mlimba</td>
+<td>tz</td>
+<td align="right">-8.8</td>
+<td align="right">35.8166667</td>
+<td align="right">77.88</td>
+<td align="right">60</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">64</td>
+<td align="right">4.97</td>
+</tr>
+<tr>
+<td align="right">511</td>
+<td>cosmopolis</td>
+<td>br</td>
+<td align="right">-22.633333</td>
+<td align="right">-47.199999999999996</td>
+<td align="right">84.2</td>
+<td align="right">45</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">20</td>
+<td align="right">14.99</td>
+</tr>
+<tr>
+<td align="right">512</td>
+<td>porto walter</td>
+<td>br</td>
+<td align="right">-8.261111000000001</td>
+<td align="right">-72.738889</td>
+<td align="right">95.43</td>
+<td align="right">38</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">64</td>
+<td align="right">2.73</td>
+</tr>
+<tr>
+<td align="right">513</td>
+<td>mansfield</td>
+<td>us</td>
+<td align="right">40.75833329999999</td>
+<td align="right">-82.5155556</td>
+<td align="right">71.92</td>
+<td align="right">97</td>
+<td>Mist</td>
+<td>mist</td>
+<td align="right">90</td>
+<td align="right">10.29</td>
+</tr>
+<tr>
+<td align="right">514</td>
+<td>gap</td>
+<td>fr</td>
+<td align="right">44.56151400000001</td>
+<td align="right">6.081061000000001</td>
+<td align="right">50.07</td>
+<td align="right">85</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">2.06</td>
+</tr>
+<tr>
+<td align="right">515</td>
+<td>sakaiminato</td>
+<td>jp</td>
+<td align="right">35.54999999999999</td>
+<td align="right">133.233333</td>
+<td align="right">69.8</td>
+<td align="right">52</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">75</td>
+<td align="right">18.34</td>
+</tr>
+<tr>
+<td align="right">516</td>
+<td>corrente</td>
+<td>br</td>
+<td align="right">-10.436111</td>
+<td align="right">-45.131111</td>
+<td align="right">91.38</td>
+<td align="right">27</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">68</td>
+<td align="right">7.09</td>
+</tr>
+<tr>
+<td align="right">517</td>
+<td>nombre de dios</td>
+<td>mx</td>
+<td align="right">23.85</td>
+<td align="right">-104.233333</td>
+<td align="right">77.0</td>
+<td align="right">44</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">75</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td align="right">518</td>
+<td>rolim de moura</td>
+<td>br</td>
+<td align="right">-13.083333</td>
+<td align="right">-62.266667</td>
+<td align="right">88.68</td>
+<td align="right">62</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">0</td>
+<td align="right">1.16</td>
+</tr>
+<tr>
+<td align="right">519</td>
+<td>japura</td>
+<td>br</td>
+<td align="right">-1.395833</td>
+<td align="right">-69.422222</td>
+<td align="right">92.73</td>
+<td align="right">46</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">12</td>
+<td align="right">2.62</td>
+</tr>
+<tr>
+<td align="right">520</td>
+<td>raypur</td>
+<td>bd</td>
+<td align="right">23.05</td>
+<td align="right">90.76666669999999</td>
+<td align="right">82.29</td>
+<td align="right">91</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">64</td>
+<td align="right">9.22</td>
+</tr>
+<tr>
+<td align="right">521</td>
+<td>fougamou</td>
+<td>ga</td>
+<td align="right">-1.2166667</td>
+<td align="right">10.6</td>
+<td align="right">74.46</td>
+<td align="right">92</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">80</td>
+<td align="right">2.39</td>
+</tr>
+<tr>
+<td align="right">522</td>
+<td>thanh hoa</td>
+<td>vn</td>
+<td align="right">19.800000000000004</td>
+<td align="right">105.766667</td>
+<td align="right">77.7</td>
+<td align="right">97</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">3.51</td>
+</tr>
+<tr>
+<td align="right">523</td>
+<td>hisor</td>
+<td>tj</td>
+<td align="right">38.481944399999996</td>
+<td align="right">68.5969444</td>
+<td align="right">60.8</td>
+<td align="right">51</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">24</td>
+<td align="right">4.47</td>
+</tr>
+<tr>
+<td align="right">524</td>
+<td>tasbuget</td>
+<td>kz</td>
+<td align="right">44.772778</td>
+<td align="right">65.5525</td>
+<td align="right">60.8</td>
+<td align="right">38</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">13.42</td>
+</tr>
+<tr>
+<td align="right">525</td>
+<td>springdale</td>
+<td>ca</td>
+<td align="right">49.483333</td>
+<td align="right">-56.10000000000001</td>
+<td align="right">46.38</td>
+<td align="right">49</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">6.76</td>
+</tr>
+<tr>
+<td align="right">526</td>
+<td>urusha</td>
+<td>ru</td>
+<td align="right">54.050000000000004</td>
+<td align="right">122.90000000000002</td>
+<td align="right">36.39</td>
+<td align="right">83</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">2.39</td>
+</tr>
+<tr>
+<td align="right">527</td>
+<td>kurayoshi</td>
+<td>jp</td>
+<td align="right">35.43333300000001</td>
+<td align="right">133.816667</td>
+<td align="right">69.8</td>
+<td align="right">52</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">75</td>
+<td align="right">18.34</td>
+</tr>
+<tr>
+<td align="right">528</td>
+<td>ashland</td>
+<td>us</td>
+<td align="right">42.1947222</td>
+<td align="right">-122.70833329999999</td>
+<td align="right">73.94</td>
+<td align="right">3</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">1</td>
+<td align="right">2.17</td>
+</tr>
+<tr>
+<td align="right">529</td>
+<td>purwodadi</td>
+<td>id</td>
+<td align="right">-7.086800000000002</td>
+<td align="right">110.9158</td>
+<td align="right">72.93</td>
+<td align="right">74</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">5.19</td>
+</tr>
+<tr>
+<td align="right">530</td>
+<td>damara</td>
+<td>cf</td>
+<td align="right">4.9666667</td>
+<td align="right">18.699999999999996</td>
+<td align="right">69.78</td>
+<td align="right">98</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">64</td>
+<td align="right">2.39</td>
+</tr>
+<tr>
+<td align="right">531</td>
+<td>kandi</td>
+<td>bj</td>
+<td align="right">11.134166700000002</td>
+<td align="right">2.938611100000001</td>
+<td align="right">80.4</td>
+<td align="right">75</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">5.97</td>
+</tr>
+<tr>
+<td align="right">532</td>
+<td>shafter</td>
+<td>us</td>
+<td align="right">35.5005556</td>
+<td align="right">-119.27083330000002</td>
+<td align="right">87.1</td>
+<td align="right">22</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">1</td>
+<td align="right">5.08</td>
+</tr>
+<tr>
+<td align="right">533</td>
+<td>bridlington</td>
+<td>gb</td>
+<td align="right">54.095000000000006</td>
+<td align="right">-0.20805600000000002</td>
+<td align="right">55.4</td>
+<td align="right">66</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">14.99</td>
+</tr>
+<tr>
+<td align="right">534</td>
+<td>songkhla</td>
+<td>th</td>
+<td align="right">7.198822</td>
+<td align="right">100.595098</td>
+<td align="right">75.2</td>
+<td align="right">94</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td align="right">535</td>
+<td>yeppoon</td>
+<td>au</td>
+<td align="right">-23.126829</td>
+<td align="right">150.744064</td>
+<td align="right">62.6</td>
+<td align="right">82</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td align="right">536</td>
+<td>khonuu</td>
+<td>ru</td>
+<td align="right">66.45000000000002</td>
+<td align="right">143.1</td>
+<td align="right">29.73</td>
+<td align="right">100</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">76</td>
+<td align="right">2.73</td>
+</tr>
+<tr>
+<td align="right">537</td>
+<td>norrtalje</td>
+<td>se</td>
+<td align="right">59.766667</td>
+<td align="right">18.700000000000003</td>
+<td align="right">49.39</td>
+<td align="right">71</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">14.99</td>
+</tr>
+<tr>
+<td align="right">538</td>
+<td>edd</td>
+<td>er</td>
+<td align="right">13.9297222</td>
+<td align="right">41.6925</td>
+<td align="right">72.84</td>
+<td align="right">63</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">56</td>
+<td align="right">1.72</td>
+</tr>
+<tr>
+<td align="right">539</td>
+<td>riobamba</td>
+<td>ec</td>
+<td align="right">-1.6666667</td>
+<td align="right">-78.63333329999999</td>
+<td align="right">69.8</td>
+<td align="right">43</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">20.8</td>
+</tr>
+<tr>
+<td align="right">540</td>
+<td>maloy</td>
+<td>no</td>
+<td align="right">61.938333</td>
+<td align="right">5.113333</td>
+<td align="right">48.16</td>
+<td align="right">87</td>
+<td>Rain</td>
+<td>light intensity shower rain</td>
+<td align="right">75</td>
+<td align="right">39.15</td>
+</tr>
+<tr>
+<td align="right">541</td>
+<td>saravan</td>
+<td>la</td>
+<td align="right">15.716667000000001</td>
+<td align="right">106.41666699999999</td>
+<td align="right">70.41</td>
+<td align="right">96</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">76</td>
+<td align="right">2.06</td>
+</tr>
+<tr>
+<td align="right">542</td>
+<td>kentau</td>
+<td>kz</td>
+<td align="right">43.521944</td>
+<td align="right">68.51083299999999</td>
+<td align="right">53.13</td>
+<td align="right">47</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">8.21</td>
+</tr>
+<tr>
+<td align="right">543</td>
+<td>mabaruma</td>
+<td>gy</td>
+<td align="right">8.2</td>
+<td align="right">-59.7833333</td>
+<td align="right">83.01</td>
+<td align="right">84</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">68</td>
+<td align="right">6.42</td>
+</tr>
+<tr>
+<td align="right">544</td>
+<td>nandyal</td>
+<td>in</td>
+<td align="right">15.483333</td>
+<td align="right">78.483333</td>
+<td align="right">72.57</td>
+<td align="right">98</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">92</td>
+<td align="right">3.62</td>
+</tr>
+<tr>
+<td align="right">545</td>
+<td>maningrida</td>
+<td>au</td>
+<td align="right">-12.05111</td>
+<td align="right">134.22258</td>
+<td align="right">72.3</td>
+<td align="right">89</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">9.78</td>
+</tr>
+<tr>
+<td align="right">546</td>
+<td>ende</td>
+<td>id</td>
+<td align="right">-8.8432</td>
+<td align="right">121.6623</td>
+<td align="right">77.88</td>
+<td align="right">100</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">4.63</td>
+</tr>
+<tr>
+<td align="right">547</td>
+<td>mawlaik</td>
+<td>mm</td>
+<td align="right">23.6333333</td>
+<td align="right">94.4166667</td>
+<td align="right">71.85</td>
+<td align="right">95</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.39</td>
+</tr>
+<tr>
+<td align="right">548</td>
+<td>trat</td>
+<td>th</td>
+<td align="right">12.241027999999998</td>
+<td align="right">102.515472</td>
+<td align="right">76.44</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">88</td>
+<td align="right">6.2</td>
+</tr>
+<tr>
+<td align="right">549</td>
+<td>casalpusterlengo</td>
+<td>it</td>
+<td align="right">45.183333000000005</td>
+<td align="right">9.650000000000002</td>
+<td align="right">58.89</td>
+<td align="right">44</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td align="right">550</td>
+<td>artvin</td>
+<td>tr</td>
+<td align="right">41.182222</td>
+<td align="right">41.81944399999999</td>
+<td align="right">71.6</td>
+<td align="right">88</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">75</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td align="right">551</td>
+<td>point pedro</td>
+<td>lk</td>
+<td align="right">9.816666699999999</td>
+<td align="right">80.23333329999998</td>
+<td align="right">80.13</td>
+<td align="right">100</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">64</td>
+<td align="right">8.99</td>
+</tr>
+<tr>
+<td align="right">552</td>
+<td>riviere-au-renard</td>
+<td>ca</td>
+<td align="right">48.98333300000001</td>
+<td align="right">-64.383333</td>
+<td align="right">55.4</td>
+<td align="right">43</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">75</td>
+<td align="right">12.75</td>
+</tr>
+<tr>
+<td align="right">553</td>
+<td>bahia blanca</td>
+<td>ar</td>
+<td align="right">-38.719595000000005</td>
+<td align="right">-62.27243200000001</td>
+<td align="right">65.46</td>
+<td align="right">52</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">92</td>
+<td align="right">12.57</td>
+</tr>
+<tr>
+<td align="right">554</td>
+<td>abu kamal</td>
+<td>sy</td>
+<td align="right">34.45</td>
+<td align="right">40.918611099999985</td>
+<td align="right">73.47</td>
+<td align="right">27</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">4.18</td>
+</tr>
+<tr>
+<td align="right">555</td>
+<td>umm lajj</td>
+<td>sa</td>
+<td align="right">25.021264000000002</td>
+<td align="right">37.268502</td>
+<td align="right">84.18</td>
+<td align="right">89</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">68</td>
+<td align="right">3.4</td>
+</tr>
+<tr>
+<td align="right">556</td>
+<td>saint combs</td>
+<td>gb</td>
+<td align="right">57.65</td>
+<td align="right">-1.8999999999999995</td>
+<td align="right">53.6</td>
+<td align="right">81</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">80</td>
+<td align="right">23.04</td>
+</tr>
+<tr>
+<td align="right">557</td>
+<td>micco</td>
+<td>us</td>
+<td align="right">27.880277800000005</td>
+<td align="right">-80.5005556</td>
+<td align="right">87.91</td>
+<td align="right">69</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">40</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td align="right">558</td>
+<td>tezu</td>
+<td>in</td>
+<td align="right">27.916667</td>
+<td align="right">96.166667</td>
+<td align="right">64.02</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">100</td>
+<td align="right">1.61</td>
+</tr>
+<tr>
+<td align="right">559</td>
+<td>derzhavinsk</td>
+<td>kz</td>
+<td align="right">51.100000000000016</td>
+<td align="right">66.316667</td>
+<td align="right">44.85</td>
+<td align="right">83</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">3.85</td>
+</tr>
+<tr>
+<td align="right">560</td>
+<td>maxixe</td>
+<td>mz</td>
+<td align="right">-23.8597222</td>
+<td align="right">35.3472222</td>
+<td align="right">73.56</td>
+<td align="right">94</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">13.91</td>
+</tr>
+<tr>
+<td align="right">561</td>
+<td>atbasar</td>
+<td>kz</td>
+<td align="right">51.8</td>
+<td align="right">68.333333</td>
+<td align="right">42.96</td>
+<td align="right">78</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.84</td>
+</tr>
+<tr>
+<td align="right">562</td>
+<td>norrkoping</td>
+<td>se</td>
+<td align="right">58.600000000000016</td>
+<td align="right">16.183333000000005</td>
+<td align="right">50.88</td>
+<td align="right">71</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">17.22</td>
+</tr>
+<tr>
+<td align="right">563</td>
+<td>teavaro</td>
+<td>pf</td>
+<td align="right">-17.5</td>
+<td align="right">-149.7666667</td>
+<td align="right">80.6</td>
+<td align="right">54</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td align="right">564</td>
+<td>bantou</td>
+<td>cn</td>
+<td align="right">25.443056</td>
+<td align="right">118.40333300000002</td>
+<td align="right">57.63</td>
+<td align="right">89</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.39</td>
+</tr>
+<tr>
+<td align="right">565</td>
+<td>dorogino</td>
+<td>ru</td>
+<td align="right">54.3598</td>
+<td align="right">83.3198</td>
+<td align="right">49.98</td>
+<td align="right">96</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">7.65</td>
+</tr>
+<tr>
+<td align="right">566</td>
+<td>sylvania</td>
+<td>us</td>
+<td align="right">41.71888890000001</td>
+<td align="right">-83.7130556</td>
+<td align="right">74.44</td>
+<td align="right">88</td>
+<td>Rain</td>
+<td>moderate rain</td>
+<td align="right">75</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td align="right">567</td>
+<td>kupang</td>
+<td>id</td>
+<td align="right">-10.166667</td>
+<td align="right">123.583333</td>
+<td align="right">76.35</td>
+<td align="right">100</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">9.55</td>
+</tr>
+<tr>
+<td align="right">568</td>
+<td>rach gia</td>
+<td>vn</td>
+<td align="right">10.016667000000002</td>
+<td align="right">105.083333</td>
+<td align="right">77.97</td>
+<td align="right">97</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">8.21</td>
+</tr>
+<tr>
+<td align="right">569</td>
+<td>lincoln</td>
+<td>us</td>
+<td align="right">40.800000000000004</td>
+<td align="right">-96.6666667</td>
+<td align="right">64.09</td>
+<td align="right">54</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">18.34</td>
+</tr>
+<tr>
+<td align="right">570</td>
+<td>nouakchott</td>
+<td>mr</td>
+<td align="right">18.0863889</td>
+<td align="right">-15.975277800000002</td>
+<td align="right">80.31</td>
+<td align="right">99</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">48</td>
+<td align="right">10.67</td>
+</tr>
+<tr>
+<td align="right">571</td>
+<td>ituacu</td>
+<td>br</td>
+<td align="right">-13.816667000000002</td>
+<td align="right">-41.3</td>
+<td align="right">78.96</td>
+<td align="right">46</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">8.99</td>
+</tr>
+<tr>
+<td align="right">572</td>
+<td>mar del plata</td>
+<td>ar</td>
+<td align="right">-38.002278000000004</td>
+<td align="right">-57.55753899999999</td>
+<td align="right">66.2</td>
+<td align="right">48</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td align="right">573</td>
+<td>tuktoyaktuk</td>
+<td>ca</td>
+<td align="right">69.45</td>
+<td align="right">-133.066667</td>
+<td align="right">32.0</td>
+<td align="right">100</td>
+<td>Snow</td>
+<td>light snow</td>
+<td align="right">90</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td align="right">574</td>
+<td>dhanera</td>
+<td>in</td>
+<td align="right">24.516667</td>
+<td align="right">72.016667</td>
+<td align="right">73.83</td>
+<td align="right">53</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">5.53</td>
+</tr>
+<tr>
+<td align="right">575</td>
+<td>frolovo</td>
+<td>ru</td>
+<td align="right">49.77132600000001</td>
+<td align="right">43.662221</td>
+<td align="right">49.71</td>
+<td align="right">95</td>
+<td>Clouds</td>
+<td>overcast clouds</td>
+<td align="right">88</td>
+<td align="right">7.2</td>
+</tr>
+<tr>
+<td align="right">576</td>
+<td>bentiu</td>
+<td>sd</td>
+<td align="right">9.2333333</td>
+<td align="right">29.8333333</td>
+<td align="right">77.52</td>
+<td align="right">74</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">36</td>
+<td align="right">3.4</td>
+</tr>
+<tr>
+<td align="right">577</td>
+<td>puerto quijarro</td>
+<td>bo</td>
+<td align="right">-17.783333300000002</td>
+<td align="right">-57.766666699999995</td>
+<td align="right">90.57</td>
+<td align="right">50</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">20</td>
+<td align="right">2.62</td>
+</tr>
+<tr>
+<td align="right">578</td>
+<td>opuwo</td>
+<td>na</td>
+<td align="right">-18.0666667</td>
+<td align="right">13.850000000000001</td>
+<td align="right">63.84</td>
+<td align="right">39</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">4.85</td>
+</tr>
+<tr>
+<td align="right">579</td>
+<td>barawe</td>
+<td>so</td>
+<td align="right">1.1000000000000005</td>
+<td align="right">44.04999999999999</td>
+<td align="right">75.09</td>
+<td align="right">88</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">48</td>
+<td align="right">7.99</td>
+</tr>
+<tr>
+<td align="right">580</td>
+<td>damphu</td>
+<td>bt</td>
+<td align="right">27.0166667</td>
+<td align="right">90.1</td>
+<td align="right">64.29</td>
+<td align="right">96</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">76</td>
+<td align="right">0.6</td>
+</tr>
+<tr>
+<td align="right">581</td>
+<td>koutiala</td>
+<td>ml</td>
+<td align="right">12.383333300000002</td>
+<td align="right">-5.466666699999999</td>
+<td align="right">79.14</td>
+<td align="right">83</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">24</td>
+<td align="right">4.41</td>
+</tr>
+<tr>
+<td align="right">582</td>
+<td>obo</td>
+<td>cf</td>
+<td align="right">5.4</td>
+<td align="right">26.5</td>
+<td align="right">67.08</td>
+<td align="right">94</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">64</td>
+<td align="right">2.95</td>
+</tr>
+<tr>
+<td align="right">583</td>
+<td>kaset sombun</td>
+<td>th</td>
+<td align="right">16.280528000000004</td>
+<td align="right">101.954222</td>
+<td align="right">70.23</td>
+<td align="right">94</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">3.18</td>
+</tr>
+<tr>
+<td align="right">584</td>
+<td>nohfelden</td>
+<td>de</td>
+<td align="right">49.58333300000001</td>
+<td align="right">7.150000000000001</td>
+<td align="right">44.78</td>
+<td align="right">65</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td align="right">585</td>
+<td>kasungu</td>
+<td>mw</td>
+<td align="right">-13.033333299999999</td>
+<td align="right">33.48333330000001</td>
+<td align="right">59.52</td>
+<td align="right">82</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">4.41</td>
+</tr>
+<tr>
+<td align="right">586</td>
+<td>khandbari</td>
+<td>np</td>
+<td align="right">27.366666700000003</td>
+<td align="right">87.2166667</td>
+<td align="right">43.23</td>
+<td align="right">66</td>
+<td>Clouds</td>
+<td>scattered clouds</td>
+<td align="right">44</td>
+<td align="right">1.61</td>
+</tr>
+<tr>
+<td align="right">587</td>
+<td>mutsu</td>
+<td>jp</td>
+<td align="right">41.28944400000001</td>
+<td align="right">141.216944</td>
+<td align="right">53.58</td>
+<td align="right">100</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">5.41</td>
+</tr>
+<tr>
+<td align="right">588</td>
+<td>muros</td>
+<td>es</td>
+<td align="right">42.776173</td>
+<td align="right">-9.060316</td>
+<td align="right">60.8</td>
+<td align="right">67</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td align="right">589</td>
+<td>calama</td>
+<td>cl</td>
+<td align="right">-22.466667</td>
+<td align="right">-68.93333299999999</td>
+<td align="right">75.2</td>
+<td align="right">3</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">24.16</td>
+</tr>
+<tr>
+<td align="right">590</td>
+<td>moyale</td>
+<td>et</td>
+<td align="right">3.569167</td>
+<td align="right">39.083333</td>
+<td align="right">60.06</td>
+<td align="right">90</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">8</td>
+<td align="right">3.06</td>
+</tr>
+<tr>
+<td align="right">591</td>
+<td>karauli</td>
+<td>in</td>
+<td align="right">26.5</td>
+<td align="right">77.016667</td>
+<td align="right">69.24</td>
+<td align="right">87</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.73</td>
+</tr>
+<tr>
+<td align="right">592</td>
+<td>dibulla</td>
+<td>co</td>
+<td align="right">11.272506</td>
+<td align="right">-73.309107</td>
+<td align="right">95.0</td>
+<td align="right">47</td>
+<td>Clouds</td>
+<td>few clouds</td>
+<td align="right">20</td>
+<td align="right">13.87</td>
+</tr>
+<tr>
+<td align="right">593</td>
+<td>linjiang</td>
+<td>cn</td>
+<td align="right">41.806943999999994</td>
+<td align="right">126.90777799999998</td>
+<td align="right">29.73</td>
+<td align="right">76</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">2.28</td>
+</tr>
+<tr>
+<td align="right">594</td>
+<td>peruibe</td>
+<td>br</td>
+<td align="right">-24.316666999999995</td>
+<td align="right">-47.0</td>
+<td align="right">72.03</td>
+<td align="right">99</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">100</td>
+<td align="right">10.45</td>
+</tr>
+<tr>
+<td align="right">595</td>
+<td>zalesovo</td>
+<td>ru</td>
+<td align="right">53.993888999999996</td>
+<td align="right">84.743056</td>
+<td align="right">51.42</td>
+<td align="right">95</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">92</td>
+<td align="right">7.2</td>
+</tr>
+<tr>
+<td align="right">596</td>
+<td>beya</td>
+<td>ru</td>
+<td align="right">53.05333300000001</td>
+<td align="right">90.913889</td>
+<td align="right">41.97</td>
+<td align="right">100</td>
+<td>Rain</td>
+<td>light rain</td>
+<td align="right">92</td>
+<td align="right">5.19</td>
+</tr>
+<tr>
+<td align="right">597</td>
+<td>riyadh</td>
+<td>sa</td>
+<td align="right">24.653664</td>
+<td align="right">46.71522</td>
+<td align="right">89.6</td>
+<td align="right">15</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td align="right">598</td>
+<td>tillabery</td>
+<td>ne</td>
+<td align="right">14.211666700000002</td>
+<td align="right">1.4530556</td>
+<td align="right">82.83</td>
+<td align="right">57</td>
+<td>Clear</td>
+<td>clear sky</td>
+<td align="right">0</td>
+<td align="right">4.97</td>
+</tr>
+<tr>
+<td align="right">599</td>
+<td>xiangxiang</td>
+<td>cn</td>
+<td align="right">27.733333</td>
+<td align="right">112.533333</td>
+<td align="right">68.43</td>
+<td align="right">72</td>
+<td>Clouds</td>
+<td>broken clouds</td>
+<td align="right">80</td>
+<td align="right">9.44</td>
+</tr>
+</tbody></table>
+    </div>
+  </div>
+</div>
+
+</body>
+<footer class="footer">
+  <div class="container">
+    <span class="credit">Page by Joseph Moravitz.  November 2018.</span>
+
+
+  </div>
+</footer>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+</html>

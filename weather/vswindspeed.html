@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Demo - Windspeed As Compared To Latitude</title>
+  <link rel="shortcut icon" href="icosohedron.ico">
+  <link rel="icon" hfref = "icosohedron.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Latest compiled and minified JavaScript -->
+</head>
+<body>
+<div id="wrap">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Homework 6: What's the Weather Like?</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="vstemperature.html">Temperature</a></li>
+            <li><a href="vshumidity.html">Humidity</a></li>
+            <li><a href="vscloudiness.html">Cloudiness</a></li>
+            <li><a href="#" class="active"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Wind Speed</a></li>
+          </ul>
+        </li>
+        <li><a href="comparison.html">Comparison</a></li>
+        <li><a href="data.html">Data</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="container">
+  <h1>Windspeed Versus Latutide</h1>
+  <hr>
+  <div class="row">
+    <div class="col-md-12">
+      <img class="center" src="i/WindspeedVsLatitude(9-25-2018).png">
+    </div>
+  </div>
+</div>
+<br />
+<br />
+<br />
+<div class="clear container">
+  <div class="row">
+    <div class="col-md-8 container"><h1>Analysis</h1><hr>
+      <p> There appears to be very little correlation between windspeed and distance to the equator.  All latitudes had a wide range and high variance of observed windspeeds.</p>
+      <p> The highest recorded windspeeds were in Norway where they were experiencing a small storm at the time.  It was labeled as a "Light intensity shower."</p>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-3 container"><h2>Additional Plots</h2><hr>
+      <table>
+        <tr>
+          <td>Temperature<a href="vstemperature.html" class="thumbnail"><img src="i/TemperatureVsLatitude(9-25-2018).png"></a></td>
+          <td>Humidity<a href="vshumidity.html" class="thumbnail"><img src="i/HumidityVsLatitude(9-25-2018).png"> </a></td>
+        </tr>
+        <tr>
+          <td>Cloudiness<a href="vscloudiness.html" class="thumbnail"><img src="i/CloudinessVsLatitude(9-25-2018).png"></a></td>
+          <td>Windspeed<a href="#" class="thumbnail active"><img src="i/WindspeedVsLatitude(9-25-2018).png"></a></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+</body>
+<footer class="footer">
+  <div class="container">
+    <span class="credit">Page by Joseph Moravitz.  November 2018.</span>
+
+
+  </div>
+</footer>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+</html>
