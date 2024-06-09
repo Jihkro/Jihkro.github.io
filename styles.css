@@ -96,3 +96,7 @@ hr {
   text-align: center;
   color:#00A090;
 }
+
+.navright{
+  border-right-style: none;
+}
