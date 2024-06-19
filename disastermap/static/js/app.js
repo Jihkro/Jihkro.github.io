@@ -415,7 +415,7 @@ function updateMap(hurricaneState,earthQuakeState,tornadoState,wildfireState, fl
       //console.log(data["02170"])
 	var result = {}
 	$.each(parsedcsvdata,function(key,item){
-		countyCode = (''+item['FIPS Code\r']||'').trim()
+		countyCode = ((''+item['FIPS Code'])||(''+item['FIPS Code\r'])||'').trim()
 		if (!result[countyCode]) result[countyCode] = {TOTAL: 0, HurricaneCount: 0, EarthquakeCount: 0, TornadoCount: 0, FireCount: 0, FloodCount:0}
 		switch(item['Incident Type']){
 			case 'Hurricane':
