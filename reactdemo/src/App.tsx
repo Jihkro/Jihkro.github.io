@@ -1,14 +1,12 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowUpWideShort } from '@fortawesome/free-solid-svg-icons'
 import { faArrowDownShortWide } from '@fortawesome/free-solid-svg-icons'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-  const [people, setPeople] = useState([])
+  const [people, setPeople] = useState<any[]>([])
   const [currentSort, setCurrentSort] = useState({'type':'name', 'direction':true})
 
   var getNextPerson = function(){
